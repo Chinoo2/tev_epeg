@@ -1,2 +1,63 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_232">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v54r4ryp2mfjtmcesyriml1drmwz" />
+    </channel>
+    <channel id="TEV_167">
+        <display-name>SALTO URUGUAY vs LIBERTAD</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bbp7dbvrw15vu6r9h90tzslz2udj" />
+    </channel>
+    <channel id="TEV_168">
+        <display-name>PARQUE SOLARI vs SALTO NUEVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8fgi99axya3y15ga7c58296tk5gd" />
+    </channel>
+    <channel id="TEV_169">
+        <display-name>UNIVERSITARIO vs NACIONAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7cullrksndvbivunkrqdm0ams38c" />
+    </channel>
+    <channel id="TEV_170">
+        <display-name>SHOW DE GOLES</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
+    </channel>
+    <channel id="TEV_233">
+        <display-name>FUTBOL NUESTRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
+    </channel>
+    <programme start="20260823113000 -0300" stop="20260823125900 -0300" channel="TEV_232">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v54r4ryp2mfjtmcesyriml1drmwz" />
+    </programme>
+    <programme start="20260823134500 -0300" stop="20260823155500 -0300" channel="TEV_167">
+        <title lang="es">SALTO URUGUAY vs LIBERTAD</title>
+        <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bbp7dbvrw15vu6r9h90tzslz2udj" />
+    </programme>
+    <programme start="20260823160000 -0300" stop="20260823180000 -0300" channel="TEV_168">
+        <title lang="es">PARQUE SOLARI vs SALTO NUEVO</title>
+        <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8fgi99axya3y15ga7c58296tk5gd" />
+    </programme>
+    <programme start="20260823181500 -0300" stop="20260823203000 -0300" channel="TEV_169">
+        <title lang="es">UNIVERSITARIO vs NACIONAL</title>
+        <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7cullrksndvbivunkrqdm0ams38c" />
+    </programme>
+    <programme start="20260824210000 -0300" stop="20260824220000 -0300" channel="TEV_170">
+        <title lang="es">SHOW DE GOLES</title>
+        <desc lang="es">TODOS LOS GOLES DE LA SEGUNDA FECHA</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
+    </programme>
+    <programme start="20260825215900 -0300" stop="20260825230000 -0300" channel="TEV_233">
+        <title lang="es">FUTBOL NUESTRO</title>
+        <desc lang="es">LAS MEJORES JUGADAS, LOS GOLES Y LAS POLEMICAS DE LA SEGUNDA FECHA.</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
+    </programme>
+</tv>
