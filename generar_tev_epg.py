@@ -1,4 +1,3 @@
-
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -17,10 +16,14 @@ CARPETA = Path(__file__).resolve().parent
 
 ARCHIVO_EPG = CARPETA / "tev_epg.xml"
 
+# Zona horaria de Todo En Vivo / Montevideo
 TIMEZONE_OFFSET = "-0300"
 
-# Cuántos días hacia adelante queremos conservar
+# Cuántos días hacia adelante conservar
 DIAS_FUTUROS = 7
+
+# Subdominio de Todo En Vivo
+SUBDOMAIN = "todoenvivo"
 
 
 # ============================================================
@@ -38,8 +41,27 @@ def obtener_datos():
     print("Consultando API:")
     print(ENDPOINT)
 
+    # --------------------------------------------------------
+    # HEADERS
+    # --------------------------------------------------------
+
     headers = {
-        "Accept": "application/json",
+
+        "Accept":
+            "application/json",
+
+        "Accept-Language":
+            "es-UY,es;q=0.9",
+
+        "Content-Type":
+            "application/json",
+
+        "Origin":
+            "https://todoenvivo.plag.tv",
+
+        "Referer":
+            "https://todoenvivo.plag.tv/",
+
         "User-Agent": (
             "Mozilla/5.0 "
             "(Windows NT 10.0; Win64; x64) "
@@ -47,7 +69,12 @@ def obtener_datos():
             "(KHTML, like Gecko) "
             "Chrome/150.0.0.0 "
             "Safari/537.36"
-        )
+        ),
+
+        # IMPORTANTE
+        # La API necesita saber qué tenant consultar.
+        "subdomain":
+            SUBDOMAIN,
     }
 
     try:
@@ -67,28 +94,43 @@ def obtener_datos():
         return None
 
     print()
-    print(f"HTTP {response.status_code}")
+    print(
+        f"HTTP {response.status_code}"
+    )
 
     if response.status_code != 200:
 
         print()
-        print("ERROR: la API no devolvió HTTP 200.")
+        print(
+            "ERROR: la API no devolvió HTTP 200."
+        )
 
         print()
-        print(response.text[:1000])
+        print(
+            response.text[:1000]
+        )
 
         return None
 
     try:
 
-        return response.json()
+        data = response.json()
 
     except ValueError:
 
         print()
-        print("ERROR: la respuesta no es JSON válido.")
+        print(
+            "ERROR: la respuesta no es JSON válido."
+        )
 
         return None
+
+    print()
+    print(
+        "Datos recibidos correctamente."
+    )
+
+    return data
 
 
 # ============================================================
@@ -103,10 +145,15 @@ def convertir_fecha(fecha):
     try:
 
         # Ejemplo:
+        #
         # 2026-08-20T21:00:00.000-03:00
+        #
 
         dt = datetime.fromisoformat(
-            fecha.replace("Z", "+00:00")
+            fecha.replace(
+                "Z",
+                "+00:00"
+            )
         )
 
         return dt
@@ -114,7 +161,9 @@ def convertir_fecha(fecha):
     except ValueError:
 
         print()
-        print(f"Fecha inválida: {fecha}")
+        print(
+            f"Fecha inválida: {fecha}"
+        )
 
         return None
 
@@ -128,25 +177,15 @@ def formato_xmltv(fecha):
     if fecha is None:
         return ""
 
-    # Convertimos a la zona horaria de Montevideo.
-    #
-    # El offset utilizado por Todo En Vivo es -03:00.
+    # La API entrega las fechas con su offset.
     #
     # Ejemplo:
     #
-    # 2026-08-20 21:00
+    # 2026-08-20T21:00:00-03:00
     #
-    # se convierte en:
+    # XMLTV:
     #
     # 20260820210000 -0300
-
-    fecha_local = fecha.astimezone(
-        timezone.utc
-    )
-
-    # Como la API ya entrega -03:00,
-    # reconstruimos usando la hora original
-    # y el offset de Montevideo.
 
     fecha_texto = fecha.strftime(
         "%Y%m%d%H%M%S"
@@ -160,25 +199,32 @@ def formato_xmltv(fecha):
 
 
 # ============================================================
-# OBTENER CATEGORÍA DE LOS EVENTOS
+# OBTENER EVENTOS + CATEGORÍAS
 # ============================================================
 
 def obtener_eventos(data):
 
     eventos = {}
 
-    # --------------------------------------------------------
+    # ========================================================
     # EVENTOS GENERALES
-    # --------------------------------------------------------
+    # ========================================================
 
-    for evento in data.get("events", []):
+    for evento in data.get(
+        "events",
+        []
+    ):
 
-        event_id = evento.get("id")
+        event_id = evento.get(
+            "id"
+        )
 
         if event_id is None:
             continue
 
-        evento_copia = dict(evento)
+        evento_copia = dict(
+            evento
+        )
 
         evento_copia["categoria"] = (
             evento_copia.get(
@@ -187,13 +233,18 @@ def obtener_eventos(data):
             )
         )
 
-        eventos[event_id] = evento_copia
+        eventos[
+            event_id
+        ] = evento_copia
 
-    # --------------------------------------------------------
+    # ========================================================
     # EVENTOS DENTRO DE CATEGORÍAS
-    # --------------------------------------------------------
+    # ========================================================
 
-    for categoria in data.get("categories", []):
+    for categoria in data.get(
+        "categories",
+        []
+    ):
 
         categoria_nombre = categoria.get(
             "title",
@@ -205,20 +256,30 @@ def obtener_eventos(data):
             []
         ):
 
-            event_id = evento.get("id")
+            event_id = evento.get(
+                "id"
+            )
 
             if event_id is None:
                 continue
 
-            evento_copia = dict(evento)
+            evento_copia = dict(
+                evento
+            )
 
             evento_copia["categoria"] = (
                 categoria_nombre
             )
 
-            eventos[event_id] = evento_copia
+            # Si está dentro de una categoría,
+            # usamos esa categoría.
+            eventos[
+                event_id
+            ] = evento_copia
 
-    return list(eventos.values())
+    return list(
+        eventos.values()
+    )
 
 
 # ============================================================
@@ -227,13 +288,18 @@ def obtener_eventos(data):
 
 def crear_epg(eventos):
 
+    # --------------------------------------------------------
+    # HORA ACTUAL
+    # --------------------------------------------------------
+
     ahora = datetime.now(
         timezone.utc
     )
 
     limite = (
         ahora.timestamp()
-        + (
+        +
+        (
             DIAS_FUTUROS
             * 24
             * 60
@@ -243,9 +309,15 @@ def crear_epg(eventos):
 
     eventos_validos = []
 
+    # ========================================================
+    # FILTRAR EVENTOS
+    # ========================================================
+
     for evento in eventos:
 
-        event_id = evento.get("id")
+        event_id = evento.get(
+            "id"
+        )
 
         titulo = evento.get(
             "title",
@@ -253,18 +325,33 @@ def crear_epg(eventos):
         )
 
         start = convertir_fecha(
-            evento.get("start_date")
+            evento.get(
+                "start_date"
+            )
         )
 
         end = convertir_fecha(
-            evento.get("end_date")
+            evento.get(
+                "end_date"
+            )
         )
 
+        # ----------------------------------------------------
+        # FECHAS INVÁLIDAS
+        # ----------------------------------------------------
+
         if start is None or end is None:
+
+            print()
+            print(
+                f"Evento {event_id} ignorado "
+                f"por fecha inválida."
+            )
+
             continue
 
         # ----------------------------------------------------
-        # DESCARTAR EVENTOS MUY ANTIGUOS
+        # EVENTO YA TERMINADO
         # ----------------------------------------------------
 
         if end.timestamp() < ahora.timestamp():
@@ -272,23 +359,28 @@ def crear_epg(eventos):
             continue
 
         # ----------------------------------------------------
-        # DESCARTAR EVENTOS DEMASIADO LEJANOS
+        # EVENTO DEMASIADO LEJANO
         # ----------------------------------------------------
 
         if start.timestamp() > limite:
 
             continue
 
+        # ----------------------------------------------------
+        # GUARDAR DATOS CONVERTIDOS
+        # ----------------------------------------------------
+
         evento["start_dt"] = start
+
         evento["end_dt"] = end
 
         eventos_validos.append(
             evento
         )
 
-    # --------------------------------------------------------
+    # ========================================================
     # ORDENAR POR HORA DE COMIENZO
-    # --------------------------------------------------------
+    # ========================================================
 
     eventos_validos.sort(
         key=lambda x: x["start_dt"]
@@ -306,7 +398,7 @@ def crear_epg(eventos):
     )
 
     # ========================================================
-    # ROOT XMLTV
+    # CREAR ROOT XMLTV
     # ========================================================
 
     root = ET.Element(
@@ -314,23 +406,29 @@ def crear_epg(eventos):
         {
             "generator-info-name":
                 "Todo En Vivo EPG",
+
             "generator-info-url":
                 "https://todoenvivo.plag.tv"
         }
     )
 
     # ========================================================
-    # CHANNELS
+    # CREAR CHANNELS
     # ========================================================
 
     canales_creados = set()
 
     for evento in eventos_validos:
 
-        event_id = evento["id"]
+        event_id = evento[
+            "id"
+        ]
 
-        tvg_id = f"TEV_{event_id}"
+        tvg_id = (
+            f"TEV_{event_id}"
+        )
 
+        # Evitar canales duplicados.
         if tvg_id in canales_creados:
             continue
 
@@ -342,23 +440,39 @@ def crear_epg(eventos):
             root,
             "channel",
             {
-                "id": tvg_id
+                "id":
+                    tvg_id
             }
         )
+
+        # ----------------------------------------------------
+        # NOMBRE DEL CANAL
+        # ----------------------------------------------------
 
         display_name = ET.SubElement(
             channel,
             "display-name"
         )
 
-        display_name.text = evento.get(
-            "title",
-            f"Evento {event_id}"
+        display_name.text = str(
+            evento.get(
+                "title",
+                f"Evento {event_id}"
+            )
         )
 
+        # ----------------------------------------------------
+        # LOGO
+        # ----------------------------------------------------
+
         imagen = (
-            evento.get("main_image")
-            or evento.get("thumbnail_image")
+            evento.get(
+                "main_image"
+            )
+            or
+            evento.get(
+                "thumbnail_image"
+            )
         )
 
         if imagen:
@@ -367,17 +481,20 @@ def crear_epg(eventos):
                 channel,
                 "icon",
                 {
-                    "src": str(imagen)
+                    "src":
+                        str(imagen)
                 }
             )
 
     # ========================================================
-    # PROGRAMAS
+    # CREAR PROGRAMMES
     # ========================================================
 
     for evento in eventos_validos:
 
-        event_id = evento["id"]
+        event_id = evento[
+            "id"
+        ]
 
         titulo = evento.get(
             "title",
@@ -394,36 +511,51 @@ def crear_epg(eventos):
             "TODO EN VIVO"
         )
 
-        start = evento["start_dt"]
+        start = evento[
+            "start_dt"
+        ]
 
-        end = evento["end_dt"]
+        end = evento[
+            "end_dt"
+        ]
 
-        tvg_id = f"TEV_{event_id}"
+        tvg_id = (
+            f"TEV_{event_id}"
+        )
+
+        # ----------------------------------------------------
+        # PROGRAMME
+        # ----------------------------------------------------
 
         programme = ET.SubElement(
             root,
             "programme",
             {
                 "start":
-                    formato_xmltv(start),
+                    formato_xmltv(
+                        start
+                    ),
 
                 "stop":
-                    formato_xmltv(end),
+                    formato_xmltv(
+                        end
+                    ),
 
                 "channel":
                     tvg_id
             }
         )
 
-        # ----------------------------------------------------
+        # ====================================================
         # TÍTULO
-        # ----------------------------------------------------
+        # ====================================================
 
         title_element = ET.SubElement(
             programme,
             "title",
             {
-                "lang": "es"
+                "lang":
+                    "es"
             }
         )
 
@@ -431,9 +563,9 @@ def crear_epg(eventos):
             titulo
         )
 
-        # ----------------------------------------------------
+        # ====================================================
         # DESCRIPCIÓN
-        # ----------------------------------------------------
+        # ====================================================
 
         if descripcion:
 
@@ -441,7 +573,8 @@ def crear_epg(eventos):
                 programme,
                 "desc",
                 {
-                    "lang": "es"
+                    "lang":
+                        "es"
                 }
             )
 
@@ -449,9 +582,9 @@ def crear_epg(eventos):
                 descripcion
             )
 
-        # ----------------------------------------------------
+        # ====================================================
         # CATEGORÍA
-        # ----------------------------------------------------
+        # ====================================================
 
         if categoria:
 
@@ -459,7 +592,8 @@ def crear_epg(eventos):
                 programme,
                 "category",
                 {
-                    "lang": "es"
+                    "lang":
+                        "es"
                 }
             )
 
@@ -467,13 +601,18 @@ def crear_epg(eventos):
                 categoria
             )
 
-        # ----------------------------------------------------
+        # ====================================================
         # IMAGEN
-        # ----------------------------------------------------
+        # ====================================================
 
         imagen = (
-            evento.get("main_image")
-            or evento.get("thumbnail_image")
+            evento.get(
+                "main_image"
+            )
+            or
+            evento.get(
+                "thumbnail_image"
+            )
         )
 
         if imagen:
@@ -482,12 +621,13 @@ def crear_epg(eventos):
                 programme,
                 "icon",
                 {
-                    "src": str(imagen)
+                    "src":
+                        str(imagen)
                 }
             )
 
     # ========================================================
-    # INDENTACIÓN
+    # INDENTAR XML
     # ========================================================
 
     ET.indent(
@@ -496,7 +636,7 @@ def crear_epg(eventos):
     )
 
     # ========================================================
-    # GUARDAR
+    # GUARDAR ARCHIVO
     # ========================================================
 
     tree = ET.ElementTree(
@@ -509,7 +649,9 @@ def crear_epg(eventos):
         xml_declaration=True
     )
 
-    return len(eventos_validos)
+    return len(
+        eventos_validos
+    )
 
 
 # ============================================================
@@ -529,6 +671,10 @@ def main():
 
         return
 
+    # ========================================================
+    # OBTENER EVENTOS
+    # ========================================================
+
     eventos = obtener_eventos(
         data
     )
@@ -542,9 +688,17 @@ def main():
 
         return
 
+    # ========================================================
+    # CREAR EPG
+    # ========================================================
+
     cantidad = crear_epg(
         eventos
     )
+
+    # ========================================================
+    # RESULTADO
+    # ========================================================
 
     print()
     print("=" * 60)
@@ -555,7 +709,8 @@ def main():
 
     print()
     print(
-        f"Programas incluidos: {cantidad}"
+        f"Programas incluidos: "
+        f"{cantidad}"
     )
 
     print()
@@ -575,5 +730,5 @@ def main():
 # ============================================================
 
 if __name__ == "__main__":
-    main()
 
+    main()
