@@ -2,7 +2,7 @@ name: Actualizar Todo En Vivo EPG
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 * * * *"
 
   workflow_dispatch:
 
@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
@@ -25,20 +24,16 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          python -m pip install --upgrade pip
           pip install requests
 
       - name: Ejecutar generador EPG
         run: |
           python generar_tev_epg.py
 
-      - name: Guardar EPG actualizado
+      - name: Guardar EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add tev_epg.xml
-
           git diff --cached --quiet || git commit -m "Actualizar Todo En Vivo EPG"
-
           git push
