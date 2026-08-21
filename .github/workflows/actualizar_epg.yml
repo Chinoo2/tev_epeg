@@ -1,4 +1,4 @@
-name: Actualizar Todo En Vivo EPG
+name: Actualizar Vivo
 
 on:
   schedule:
