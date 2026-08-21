@@ -1,4 +1,4 @@
-name: Actualizar Vivo
+name: Actualizar Live
 
 on:
   schedule:
