@@ -1,4 +1,4 @@
-```python
+
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -576,4 +576,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+
