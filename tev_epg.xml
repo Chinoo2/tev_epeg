@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_265">
-        <display-name>CANCHA 360</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5d5nddpq2q7vz8pfadnn1m4brlav" />
-    </channel>
     <channel id="TEV_232">
         <display-name>ANTESALA DEL FUTBOL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/v54r4ryp2mfjtmcesyriml1drmwz" />
@@ -28,12 +24,6 @@
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
     </channel>
-    <programme start="20260822093000 -0300" stop="20260822113000 -0300" channel="TEV_265">
-        <title lang="es">CANCHA 360</title>
-        <desc lang="es">TODOS LOS DETALLES DEL FUTBOL JUVENIL</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5d5nddpq2q7vz8pfadnn1m4brlav" />
-    </programme>
     <programme start="20260823113000 -0300" stop="20260823125900 -0300" channel="TEV_232">
         <title lang="es">ANTESALA DEL FUTBOL</title>
         <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
