@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_232">
-        <display-name>ANTESALA DEL FUTBOL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v54r4ryp2mfjtmcesyriml1drmwz" />
-    </channel>
     <channel id="TEV_167">
         <display-name>SALTO URUGUAY vs LIBERTAD</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/bbp7dbvrw15vu6r9h90tzslz2udj" />
@@ -24,12 +20,6 @@
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
     </channel>
-    <programme start="20260823113500 -0300" stop="20260823125900 -0300" channel="TEV_232">
-        <title lang="es">ANTESALA DEL FUTBOL</title>
-        <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v54r4ryp2mfjtmcesyriml1drmwz" />
-    </programme>
     <programme start="20260823134500 -0300" stop="20260823155500 -0300" channel="TEV_167">
         <title lang="es">SALTO URUGUAY vs LIBERTAD</title>
         <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
