@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_167">
-        <display-name>SALTO URUGUAY vs LIBERTAD</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bbp7dbvrw15vu6r9h90tzslz2udj" />
-    </channel>
     <channel id="TEV_168">
         <display-name>PARQUE SOLARI vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/8fgi99axya3y15ga7c58296tk5gd" />
@@ -20,13 +16,7 @@
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
     </channel>
-    <programme start="20260823134500 -0300" stop="20260823155500 -0300" channel="TEV_167">
-        <title lang="es">SALTO URUGUAY vs LIBERTAD</title>
-        <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bbp7dbvrw15vu6r9h90tzslz2udj" />
-    </programme>
-    <programme start="20260823160000 -0300" stop="20260823180000 -0300" channel="TEV_168">
+    <programme start="20260823160500 -0300" stop="20260823180500 -0300" channel="TEV_168">
         <title lang="es">PARQUE SOLARI vs SALTO NUEVO</title>
         <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
         <category lang="es">DIVISIONAL A</category>
