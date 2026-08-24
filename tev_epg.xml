@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_169">
-        <display-name>UNIVERSITARIO vs NACIONAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7cullrksndvbivunkrqdm0ams38c" />
-    </channel>
     <channel id="TEV_170">
         <display-name>SHOW DE GOLES</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
@@ -12,12 +8,6 @@
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
     </channel>
-    <programme start="20260823181900 -0300" stop="20260823205000 -0300" channel="TEV_169">
-        <title lang="es">UNIVERSITARIO vs NACIONAL</title>
-        <desc lang="es">SEGUNDA FECHA, PRIMERA RUEDA</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7cullrksndvbivunkrqdm0ams38c" />
-    </programme>
     <programme start="20260824210000 -0300" stop="20260824220000 -0300" channel="TEV_170">
         <title lang="es">SHOW DE GOLES</title>
         <desc lang="es">TODOS LOS GOLES DE LA SEGUNDA FECHA</desc>
