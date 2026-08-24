@@ -4,6 +4,10 @@
         <display-name>SHOW DE GOLES</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
     </channel>
+    <channel id="TEV_298">
+        <display-name>TURF - SALTO JOCKEY CLUB</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
+    </channel>
     <channel id="TEV_233">
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
@@ -13,6 +17,12 @@
         <desc lang="es">TODOS LOS GOLES DE LA SEGUNDA FECHA</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
+    </programme>
+    <programme start="20260825090000 -0300" stop="20260825200000 -0300" channel="TEV_298">
+        <title lang="es">TURF - SALTO JOCKEY CLUB</title>
+        <desc lang="es">EN DIRECTO DESDE EL HIPODROMO DE SALTO</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
     </programme>
     <programme start="20260825215900 -0300" stop="20260825230000 -0300" channel="TEV_233">
         <title lang="es">FUTBOL NUESTRO</title>
