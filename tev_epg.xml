@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_170">
-        <display-name>SHOW DE GOLES</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
-    </channel>
     <channel id="TEV_298">
         <display-name>TURF - SALTO JOCKEY CLUB</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
@@ -12,19 +8,13 @@
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
     </channel>
-    <programme start="20260824210000 -0300" stop="20260824220000 -0300" channel="TEV_170">
-        <title lang="es">SHOW DE GOLES</title>
-        <desc lang="es">TODOS LOS GOLES DE LA SEGUNDA FECHA</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fmfvil286lfofdntvkzeayc2ynoi" />
-    </programme>
     <programme start="20260825090000 -0300" stop="20260825200000 -0300" channel="TEV_298">
         <title lang="es">TURF - SALTO JOCKEY CLUB</title>
         <desc lang="es">EN DIRECTO DESDE EL HIPODROMO DE SALTO</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
     </programme>
-    <programme start="20260825215900 -0300" stop="20260825230000 -0300" channel="TEV_233">
+    <programme start="20260825210000 -0300" stop="20260825230000 -0300" channel="TEV_233">
         <title lang="es">FUTBOL NUESTRO</title>
         <desc lang="es">LAS MEJORES JUGADAS, LOS GOLES Y LAS POLEMICAS DE LA SEGUNDA FECHA.</desc>
         <category lang="es">PROGRAMAS</category>
