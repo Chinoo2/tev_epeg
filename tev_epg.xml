@@ -4,10 +4,6 @@
         <display-name>TURF - SALTO JOCKEY CLUB</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
     </channel>
-    <channel id="TEV_332">
-        <display-name>DESFILE CÍVICO-MILITAR CRIOLLO DÍA DE LA INDEPENDENCIA</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/i6f1nvjq2zvnkors96d5ytn8ln94" />
-    </channel>
     <channel id="TEV_233">
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
@@ -17,12 +13,6 @@
         <desc lang="es">EN DIRECTO DESDE EL HIPODROMO DE SALTO</desc>
         <category lang="es">EVENTOS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
-    </programme>
-    <programme start="20260825110200 -0300" stop="20260825145900 -0300" channel="TEV_332">
-        <title lang="es">DESFILE CÍVICO-MILITAR CRIOLLO DÍA DE LA INDEPENDENCIA</title>
-        <desc lang="es">201 AÑOS DE LA DECLARATORIA DE INDEPENDENCIA </desc>
-        <category lang="es">EVENTOS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/i6f1nvjq2zvnkors96d5ytn8ln94" />
     </programme>
     <programme start="20260825210000 -0300" stop="20260825230000 -0300" channel="TEV_233">
         <title lang="es">FUTBOL NUESTRO</title>
