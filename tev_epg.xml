@@ -9,7 +9,7 @@
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/pdzd1gwroor3jevzqem0mo6cajuj" />
     </channel>
     <channel id="TEV_332">
-        <display-name>DESFILE CÍVICO-MILITAR DÍA DE LA INDEPENDENCIA</display-name>
+        <display-name>DESFILE CÍVICO-MILITAR CRIOLLO DÍA DE LA INDEPENDENCIA</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/i6f1nvjq2zvnkors96d5ytn8ln94" />
     </channel>
     <channel id="TEV_233">
@@ -22,14 +22,14 @@
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/o6d5q2mr0cmde42bv3upuseecqk1" />
     </programme>
-    <programme start="20260825095500 -0300" stop="20260825110000 -0300" channel="TEV_331">
+    <programme start="20260825095500 -0300" stop="20260825114200 -0300" channel="TEV_331">
         <title lang="es">ACTO 201 AÑOS DECLARATORIA DE INDEPENDENCIA</title>
         <desc lang="es">ACTO PROTOCOLAR</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/pdzd1gwroor3jevzqem0mo6cajuj" />
     </programme>
     <programme start="20260825111000 -0300" stop="20260825145900 -0300" channel="TEV_332">
-        <title lang="es">DESFILE CÍVICO-MILITAR DÍA DE LA INDEPENDENCIA</title>
+        <title lang="es">DESFILE CÍVICO-MILITAR CRIOLLO DÍA DE LA INDEPENDENCIA</title>
         <desc lang="es">201 AÑOS DE LA DECLARATORIA DE INDEPENDENCIA </desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/i6f1nvjq2zvnkors96d5ytn8ln94" />
