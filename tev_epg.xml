@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_233">
-        <display-name>FUTBOL NUESTRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
-    </channel>
-    <programme start="20260825210000 -0300" stop="20260825230000 -0300" channel="TEV_233">
-        <title lang="es">FUTBOL NUESTRO</title>
-        <desc lang="es">LAS MEJORES JUGADAS, LOS GOLES Y LAS POLEMICAS DE LA SEGUNDA FECHA.</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/htsjugh8bbo2mte9vjb587vihhcj" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
