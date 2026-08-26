@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_364">
+        <display-name>AL ARO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5eh1g139qwsqlfju2obmk6lnpqn6" />
+    </channel>
+    <programme start="20260826190000 -0300" stop="20260826210000 -0300" channel="TEV_364">
+        <title lang="es">AL ARO</title>
+        <desc lang="es">TODA LA INFO DE LA COMPETENCIA DEL BALONCESTO DEL DEPARTAMENTO</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5eh1g139qwsqlfju2obmk6lnpqn6" />
+    </programme>
+</tv>
