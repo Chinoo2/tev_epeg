@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_432">
+        <display-name>CANCHA 360</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/q4a28mpfff82ywvcox2hkp2kln2y" />
+    </channel>
+    <channel id="TEV_434">
+        <display-name>CAMPEONATO NACIONAL DE KARTING EN TIERRA</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/052y9w4xajy1cczs35ej9391gz3t" />
+    </channel>
+    <channel id="TEV_433">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
+    </channel>
     <channel id="TEV_398">
         <display-name>FERRO CARRRIL vs GLADIADOR</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
@@ -8,26 +20,54 @@
         <display-name>ARSENAL vs ALMAGRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
     </channel>
-    <channel id="TEV_400">
-        <display-name>SALTO NUEVO vs UNIVERSITARIO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/nmvmup7cnr1tz29t1qprydkeclso" />
+    <channel id="TEV_430">
+        <display-name>NACIONAL vs PARQUE SOLARI</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
     </channel>
-    <programme start="20260829140000 -0300" stop="20260829161000 -0300" channel="TEV_398">
+    <channel id="TEV_431">
+        <display-name>CEIBAL vs RIVER PLATE</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3leaw8i9glsbtevr81xo91ermdy5" />
+    </channel>
+    <programme start="20260829090000 -0300" stop="20260829110300 -0300" channel="TEV_432">
+        <title lang="es">CANCHA 360</title>
+        <desc lang="es">TODOS LOS DETALLES DEL FUTBOL JUVENIL</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/q4a28mpfff82ywvcox2hkp2kln2y" />
+    </programme>
+    <programme start="20260830100000 -0300" stop="20260830180000 -0300" channel="TEV_434">
+        <title lang="es">CAMPEONATO NACIONAL DE KARTING EN TIERRA</title>
+        <desc lang="es">TODAS LAS CATEGORIAS, GRAN PREMIO MOTUL</desc>
+        <category lang="es">EVENTOS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/052y9w4xajy1cczs35ej9391gz3t" />
+    </programme>
+    <programme start="20260830115900 -0300" stop="20260830130000 -0300" channel="TEV_433">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
+    </programme>
+    <programme start="20260901190000 -0300" stop="20260829211000 -0300" channel="TEV_398">
         <title lang="es">FERRO CARRRIL vs GLADIADOR</title>
         <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
     </programme>
-    <programme start="20260829161600 -0300" stop="20260829193000 -0300" channel="TEV_399">
+    <programme start="20260901212000 -0300" stop="20260829233500 -0300" channel="TEV_399">
         <title lang="es">ARSENAL vs ALMAGRO</title>
         <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
     </programme>
-    <programme start="20260829191500 -0300" stop="20260829213000 -0300" channel="TEV_400">
-        <title lang="es">SALTO NUEVO vs UNIVERSITARIO</title>
+    <programme start="20260902190000 -0300" stop="20260902214000 -0300" channel="TEV_430">
+        <title lang="es">NACIONAL vs PARQUE SOLARI</title>
         <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/nmvmup7cnr1tz29t1qprydkeclso" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
+    </programme>
+    <programme start="20260902214500 -0300" stop="20260902233000 -0300" channel="TEV_431">
+        <title lang="es">CEIBAL vs RIVER PLATE</title>
+        <desc lang="es">COMPLEMENTO PRIMERA FECHA DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3leaw8i9glsbtevr81xo91ermdy5" />
     </programme>
 </tv>
