@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_397">
-        <display-name>LSB: UNIVERSITARIO vs FERRO CARRIL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/avh1gbfvmb55mztly3bx09jeml5c" />
-    </channel>
     <channel id="TEV_398">
         <display-name>FERRO CARRRIL vs GLADIADOR</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
@@ -16,12 +12,6 @@
         <display-name>SALTO NUEVO vs UNIVERSITARIO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/nmvmup7cnr1tz29t1qprydkeclso" />
     </channel>
-    <programme start="20260827210000 -0300" stop="20260827234500 -0300" channel="TEV_397">
-        <title lang="es">LSB: UNIVERSITARIO vs FERRO CARRIL</title>
-        <desc lang="es">BASQUETBOL SALTEÑO</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/avh1gbfvmb55mztly3bx09jeml5c" />
-    </programme>
     <programme start="20260829140000 -0300" stop="20260829161000 -0300" channel="TEV_398">
         <title lang="es">FERRO CARRRIL vs GLADIADOR</title>
         <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
