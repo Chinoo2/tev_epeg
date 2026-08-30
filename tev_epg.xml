@@ -8,14 +8,6 @@
         <display-name>ANTESALA DEL FUTBOL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
     </channel>
-    <channel id="TEV_398">
-        <display-name>FERRO CARRRIL vs GLADIADOR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
-    </channel>
-    <channel id="TEV_399">
-        <display-name>ARSENAL vs ALMAGRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
-    </channel>
     <channel id="TEV_430">
         <display-name>NACIONAL vs PARQUE SOLARI</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
@@ -35,18 +27,6 @@
         <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
-    </programme>
-    <programme start="20260901190000 -0300" stop="20260829211000 -0300" channel="TEV_398">
-        <title lang="es">FERRO CARRRIL vs GLADIADOR</title>
-        <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
-    </programme>
-    <programme start="20260901212000 -0300" stop="20260829233500 -0300" channel="TEV_399">
-        <title lang="es">ARSENAL vs ALMAGRO</title>
-        <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
     </programme>
     <programme start="20260902190000 -0300" stop="20260902214000 -0300" channel="TEV_430">
         <title lang="es">NACIONAL vs PARQUE SOLARI</title>
