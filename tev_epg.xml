@@ -4,10 +4,6 @@
         <display-name>CAMPEONATO NACIONAL DE KARTING EN TIERRA</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/052y9w4xajy1cczs35ej9391gz3t" />
     </channel>
-    <channel id="TEV_433">
-        <display-name>ANTESALA DEL FUTBOL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
-    </channel>
     <channel id="TEV_430">
         <display-name>NACIONAL vs PARQUE SOLARI</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
@@ -21,12 +17,6 @@
         <desc lang="es">TODAS LAS CATEGORIAS, GRAN PREMIO MOTUL</desc>
         <category lang="es">EVENTOS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/052y9w4xajy1cczs35ej9391gz3t" />
-    </programme>
-    <programme start="20260830115900 -0300" stop="20260830130000 -0300" channel="TEV_433">
-        <title lang="es">ANTESALA DEL FUTBOL</title>
-        <desc lang="es">MUSICA, HUMOR, INVITADOS.</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4hms2gfv2wc0wltu1ev85p3bca4r" />
     </programme>
     <programme start="20260902190000 -0300" stop="20260902214000 -0300" channel="TEV_430">
         <title lang="es">NACIONAL vs PARQUE SOLARI</title>
