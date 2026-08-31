@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_398">
+        <display-name>FERRO CARRRIL vs GLADIADOR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
+    </channel>
+    <channel id="TEV_399">
+        <display-name>ARSENAL vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
+    </channel>
+    <channel id="TEV_463">
+        <display-name>AL ARO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9xndiu5cdu78aolw1vpog06i14u2" />
+    </channel>
     <channel id="TEV_430">
         <display-name>NACIONAL vs PARQUE SOLARI</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
@@ -8,6 +20,24 @@
         <display-name>CEIBAL vs RIVER PLATE</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/3leaw8i9glsbtevr81xo91ermdy5" />
     </channel>
+    <programme start="20260901190000 -0300" stop="20260901211000 -0300" channel="TEV_398">
+        <title lang="es">FERRO CARRRIL vs GLADIADOR</title>
+        <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h2n3yrfs6uu2ndr18cpoypu5czlw" />
+    </programme>
+    <programme start="20260901212000 -0300" stop="20260901233500 -0300" channel="TEV_399">
+        <title lang="es">ARSENAL vs ALMAGRO</title>
+        <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s43b0x4lvelgdlvfn47tmr2c070f" />
+    </programme>
+    <programme start="20260902190000 -0300" stop="20260902210000 -0300" channel="TEV_463">
+        <title lang="es">AL ARO</title>
+        <desc lang="es">TODA LA INFO DE LA COMPETENCIA DEL BALONCESTO DEL DEPARTAMENTO</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9xndiu5cdu78aolw1vpog06i14u2" />
+    </programme>
     <programme start="20260902190000 -0300" stop="20260902214000 -0300" channel="TEV_430">
         <title lang="es">NACIONAL vs PARQUE SOLARI</title>
         <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
