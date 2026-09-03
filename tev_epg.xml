@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_430">
-        <display-name>NACIONAL vs PARQUE SOLARI</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
-    </channel>
     <channel id="TEV_431">
         <display-name>CEIBAL vs RIVER PLATE</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/3leaw8i9glsbtevr81xo91ermdy5" />
     </channel>
-    <programme start="20260902190000 -0300" stop="20260902214000 -0300" channel="TEV_430">
-        <title lang="es">NACIONAL vs PARQUE SOLARI</title>
-        <desc lang="es">TERCERA FECHA - DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rmt3pt889zcgjqd1ecjwwgts0l2h" />
-    </programme>
-    <programme start="20260902214500 -0300" stop="20260902233000 -0300" channel="TEV_431">
+    <programme start="20260902212800 -0300" stop="20260903003000 -0300" channel="TEV_431">
         <title lang="es">CEIBAL vs RIVER PLATE</title>
         <desc lang="es">COMPLEMENTO PRIMERA FECHA DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
