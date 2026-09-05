@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_562">
+        <display-name>CANCHA 360</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s09oc16wr9xqa6u1fj6tfdtk15g1" />
+    </channel>
+    <programme start="20260905093000 -0300" stop="20260905120300 -0300" channel="TEV_562">
+        <title lang="es">CANCHA 360</title>
+        <desc lang="es">TODA LA ACTIVIDAD DEL FUTBOL JUVENIL</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s09oc16wr9xqa6u1fj6tfdtk15g1" />
+    </programme>
+</tv>
