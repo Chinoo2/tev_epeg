@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_596">
-        <display-name>RIVER PLATE vs FERRO CARRRIL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0piu4qid44749z0v7ar3hxekk7od" />
-    </channel>
-    <programme start="20260906160500 -0300" stop="20260906184500 -0300" channel="TEV_596">
-        <title lang="es">RIVER PLATE vs FERRO CARRRIL</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0piu4qid44749z0v7ar3hxekk7od" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
