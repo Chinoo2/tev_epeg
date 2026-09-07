@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_661">
+        <display-name>SHOW DE GOLES</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/m5ec4wo3692ll0dbs0io3plxl1mg" />
+    </channel>
+    <programme start="20260907210000 -0300" stop="20260907221100 -0300" channel="TEV_661">
+        <title lang="es">SHOW DE GOLES</title>
+        <desc lang="es">TODOS LOS GOLES DE LA FECHA</desc>
+        <category lang="es">TODO EN VIVO</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/m5ec4wo3692ll0dbs0io3plxl1mg" />
+    </programme>
+</tv>
