@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_694">
-        <display-name>LSB: SALTO URUGUAY vs UNIVERSITARIO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/npikgn115e6mjc1cndtv2z63fnjv" />
-    </channel>
-    <channel id="TEV_695">
-        <display-name>FUTBOL NUESTRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/46w3spq3w0r9erdz9r7t5ajr0774" />
-    </channel>
     <channel id="TEV_727">
         <display-name>ARSENAL vs CEIBAL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/ua2qein7g7r232hg28nhs7wxuldl" />
@@ -20,18 +12,6 @@
         <display-name>LSB: UNIVERSITARIO vs SALTO URUGUAY</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/s0fwalgzlydnhhgjkl1h19vz0j3h" />
     </channel>
-    <programme start="20260908210000 -0300" stop="20260908233000 -0300" channel="TEV_694">
-        <title lang="es">LSB: SALTO URUGUAY vs UNIVERSITARIO</title>
-        <desc lang="es">Categoría U22</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/npikgn115e6mjc1cndtv2z63fnjv" />
-    </programme>
-    <programme start="20260908210000 -0300" stop="20260908230000 -0300" channel="TEV_695">
-        <title lang="es">FUTBOL NUESTRO</title>
-        <desc lang="es">EL ANALISIS DE TODAS LAS JUGADAS</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/46w3spq3w0r9erdz9r7t5ajr0774" />
-    </programme>
     <programme start="20260909191500 -0300" stop="20260909213000 -0300" channel="TEV_727">
         <title lang="es">ARSENAL vs CEIBAL</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
