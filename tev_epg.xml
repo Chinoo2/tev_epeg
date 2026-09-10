@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_728">
-        <display-name>SALTO URUGUAY vs RIVER PLATE</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yv2xxpetfa55hu2701jmvep1kv3m" />
-    </channel>
     <channel id="TEV_729">
         <display-name>LSB: UNIVERSITARIO vs SALTO URUGUAY</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/s0fwalgzlydnhhgjkl1h19vz0j3h" />
     </channel>
-    <programme start="20260909214000 -0300" stop="20260909235900 -0300" channel="TEV_728">
-        <title lang="es">SALTO URUGUAY vs RIVER PLATE</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yv2xxpetfa55hu2701jmvep1kv3m" />
-    </programme>
     <programme start="20260911210000 -0300" stop="20260911235000 -0300" channel="TEV_729">
         <title lang="es">LSB: UNIVERSITARIO vs SALTO URUGUAY</title>
         <desc lang="es">BASQUETBOL CATEGORÍA U22</desc>
