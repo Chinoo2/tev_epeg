@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_729">
-        <display-name>LSB: UNIVERSITARIO vs SALTO URUGUAY</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s0fwalgzlydnhhgjkl1h19vz0j3h" />
-    </channel>
-    <programme start="20260910210000 -0300" stop="20260910235000 -0300" channel="TEV_729">
-        <title lang="es">LSB: UNIVERSITARIO vs SALTO URUGUAY</title>
-        <desc lang="es">BASQUETBOL CATEGORÍA U22</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s0fwalgzlydnhhgjkl1h19vz0j3h" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
