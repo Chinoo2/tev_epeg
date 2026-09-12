@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_793">
-        <display-name>AHORA TODO PUEDE PASAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/34dyfo975w5re4bn5gc6v6h38v4q" />
-    </channel>
-    <channel id="TEV_794">
-        <display-name>U22 LSB: UNIVERSITARIO vs SALTO URUGUAY </display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/x92omtjmttq62butlz2b3q9lknzu" />
-    </channel>
-    <programme start="20260911201400 -0300" stop="20260911220000 -0300" channel="TEV_793">
-        <title lang="es">AHORA TODO PUEDE PASAR</title>
-        <desc lang="es">PROGRAMA DE ENTRETENIMIENTO</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/34dyfo975w5re4bn5gc6v6h38v4q" />
-    </programme>
-    <programme start="20260911210000 -0300" stop="20260911235700 -0300" channel="TEV_794">
-        <title lang="es">U22 LSB: UNIVERSITARIO vs SALTO URUGUAY </title>
-        <desc lang="es">CATEGORIA U22</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/x92omtjmttq62butlz2b3q9lknzu" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
