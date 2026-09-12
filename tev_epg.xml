@@ -8,10 +8,6 @@
         <display-name>ANTESALA DEL FUTBOL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/46zvnvihmeyvqp3vs8ox1tetajpp" />
     </channel>
-    <channel id="TEV_827">
-        <display-name>CEIBAL vs ALMAGRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4fszh520he5ul09033qj4k9b282o" />
-    </channel>
     <channel id="TEV_828">
         <display-name>GLADIADOR vs SALTO URUGUAY</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/bk7vcorlbkitetqaci8evflq1sfs" />
@@ -20,7 +16,7 @@
         <display-name>RIVER PLATE vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/evysf3yt4almjsled8hfr1yqlyav" />
     </channel>
-    <programme start="20260912150000 -0300" stop="20260912174500 -0300" channel="TEV_826">
+    <programme start="20260912150500 -0300" stop="20260912174500 -0300" channel="TEV_826">
         <title lang="es">FERRO CARRRIL vs PARQUE SOLARI</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
         <category lang="es">DIVISIONAL A</category>
@@ -31,12 +27,6 @@
         <desc lang="es">PROGRAMA DE ENTRETENIMIENTO, MUSICA Y HUMOR</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/46zvnvihmeyvqp3vs8ox1tetajpp" />
-    </programme>
-    <programme start="20260913133000 -0300" stop="20260912155500 -0300" channel="TEV_827">
-        <title lang="es">CEIBAL vs ALMAGRO</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4fszh520he5ul09033qj4k9b282o" />
     </programme>
     <programme start="20260913160000 -0300" stop="20260913181000 -0300" channel="TEV_828">
         <title lang="es">GLADIADOR vs SALTO URUGUAY</title>
