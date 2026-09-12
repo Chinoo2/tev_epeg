@@ -1,2 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_826">
+        <display-name>FERRO CARRRIL vs PARQUE SOLARI</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k9j0cobmuonnznkj7u9kys6h1diz" />
+    </channel>
+    <channel id="TEV_830">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/46zvnvihmeyvqp3vs8ox1tetajpp" />
+    </channel>
+    <channel id="TEV_827">
+        <display-name>CEIBAL vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4fszh520he5ul09033qj4k9b282o" />
+    </channel>
+    <channel id="TEV_828">
+        <display-name>GLADIADOR vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bk7vcorlbkitetqaci8evflq1sfs" />
+    </channel>
+    <channel id="TEV_829">
+        <display-name>RIVER PLATE vs SALTO NUEVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/evysf3yt4almjsled8hfr1yqlyav" />
+    </channel>
+    <programme start="20260912150000 -0300" stop="20260912174500 -0300" channel="TEV_826">
+        <title lang="es">FERRO CARRRIL vs PARQUE SOLARI</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k9j0cobmuonnznkj7u9kys6h1diz" />
+    </programme>
+    <programme start="20260913110000 -0300" stop="20260920130000 -0300" channel="TEV_830">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">PROGRAMA DE ENTRETENIMIENTO, MUSICA Y HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/46zvnvihmeyvqp3vs8ox1tetajpp" />
+    </programme>
+    <programme start="20260913133000 -0300" stop="20260912155500 -0300" channel="TEV_827">
+        <title lang="es">CEIBAL vs ALMAGRO</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4fszh520he5ul09033qj4k9b282o" />
+    </programme>
+    <programme start="20260913160000 -0300" stop="20260913181000 -0300" channel="TEV_828">
+        <title lang="es">GLADIADOR vs SALTO URUGUAY</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bk7vcorlbkitetqaci8evflq1sfs" />
+    </programme>
+    <programme start="20260913181500 -0300" stop="20260913205900 -0300" channel="TEV_829">
+        <title lang="es">RIVER PLATE vs SALTO NUEVO</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/evysf3yt4almjsled8hfr1yqlyav" />
+    </programme>
+</tv>
