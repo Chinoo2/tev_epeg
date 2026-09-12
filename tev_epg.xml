@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_826">
-        <display-name>FERRO CARRRIL vs PARQUE SOLARI</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k9j0cobmuonnznkj7u9kys6h1diz" />
-    </channel>
     <channel id="TEV_830">
         <display-name>ANTESALA DEL FUTBOL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/46zvnvihmeyvqp3vs8ox1tetajpp" />
@@ -16,12 +12,6 @@
         <display-name>RIVER PLATE vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/evysf3yt4almjsled8hfr1yqlyav" />
     </channel>
-    <programme start="20260912150500 -0300" stop="20260912174500 -0300" channel="TEV_826">
-        <title lang="es">FERRO CARRRIL vs PARQUE SOLARI</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k9j0cobmuonnznkj7u9kys6h1diz" />
-    </programme>
     <programme start="20260913110000 -0300" stop="20260920130000 -0300" channel="TEV_830">
         <title lang="es">ANTESALA DEL FUTBOL</title>
         <desc lang="es">PROGRAMA DE ENTRETENIMIENTO, MUSICA Y HUMOR</desc>
