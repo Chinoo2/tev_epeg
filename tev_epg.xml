@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_828">
-        <display-name>GLADIADOR vs SALTO URUGUAY</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bk7vcorlbkitetqaci8evflq1sfs" />
-    </channel>
     <channel id="TEV_829">
         <display-name>RIVER PLATE vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/evysf3yt4almjsled8hfr1yqlyav" />
     </channel>
-    <programme start="20260913160600 -0300" stop="20260913181000 -0300" channel="TEV_828">
-        <title lang="es">GLADIADOR vs SALTO URUGUAY</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bk7vcorlbkitetqaci8evflq1sfs" />
-    </programme>
-    <programme start="20260913181500 -0300" stop="20260913205900 -0300" channel="TEV_829">
+    <programme start="20260913182500 -0300" stop="20260913205900 -0300" channel="TEV_829">
         <title lang="es">RIVER PLATE vs SALTO NUEVO</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
         <category lang="es">DIVISIONAL A</category>
