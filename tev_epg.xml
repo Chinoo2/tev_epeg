@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_892">
-        <display-name>SHOW DE GOLES</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tar9g97zrh8jb44fmki4xxxvptta" />
+    <channel id="TEV_925">
+        <display-name>FUTBOL NUESTRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v0nch9ekvzar1ratmnsw8994wwyo" />
     </channel>
-    <programme start="20260914210000 -0300" stop="20260914215600 -0300" channel="TEV_892">
-        <title lang="es">SHOW DE GOLES</title>
-        <desc lang="es">TODOS LOS GOLES DE LA FECHA </desc>
+    <programme start="20260915210000 -0300" stop="20260915230000 -0300" channel="TEV_925">
+        <title lang="es">FUTBOL NUESTRO</title>
+        <desc lang="es">EL ANALISIS DE LA FECHA</desc>
         <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tar9g97zrh8jb44fmki4xxxvptta" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v0nch9ekvzar1ratmnsw8994wwyo" />
     </programme>
 </tv>
