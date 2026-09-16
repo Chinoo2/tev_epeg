@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_959">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/cz55dtwpl1h5r2se05pdtn9vzkbd" />
-    </channel>
     <channel id="TEV_958">
         <display-name>CEIBAL vs LIBERTAD</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/cmaccyxn76ngubhjn7evahc1mb1g" />
     </channel>
-    <programme start="20260916190000 -0300" stop="20260916214500 -0300" channel="TEV_959">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODA LA INFO DEL BASQUETBOL SALTEÑO</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/cz55dtwpl1h5r2se05pdtn9vzkbd" />
-    </programme>
     <programme start="20260916202000 -0300" stop="20260916224500 -0300" channel="TEV_958">
         <title lang="es">CEIBAL vs LIBERTAD</title>
         <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
