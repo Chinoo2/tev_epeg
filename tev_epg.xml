@@ -1,2 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_991">
+        <display-name>AHORA TODO PUEDE PASAR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ut3h6kx05qgll2q1ypjthyrj9x3v" />
+    </channel>
+    <channel id="TEV_992">
+        <display-name>LSB: FERRO CARRIL vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rawivbucefy29j1gn361dw9t2y5o" />
+    </channel>
+    <programme start="20260918200000 -0300" stop="20260918223000 -0300" channel="TEV_991">
+        <title lang="es">AHORA TODO PUEDE PASAR</title>
+        <desc lang="es">ENTRETENIMIENTO Y ACTUALIDAD CON HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ut3h6kx05qgll2q1ypjthyrj9x3v" />
+    </programme>
+    <programme start="20260918210000 -0300" stop="20260918235900 -0300" channel="TEV_992">
+        <title lang="es">LSB: FERRO CARRIL vs SALTO URUGUAY</title>
+        <desc lang="es">CAMPEONATO SALTEÑO</desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rawivbucefy29j1gn361dw9t2y5o" />
+    </programme>
+</tv>
