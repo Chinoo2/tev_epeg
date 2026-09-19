@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1026">
-        <display-name>CANCHA 360</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/eehc3ibgv1g8yvzw98hwalt9ivs2" />
-    </channel>
     <channel id="TEV_1024">
         <display-name>LIBERTAD vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/zqlvfwqhrvj34vawkbl66isbko5k" />
@@ -12,12 +8,6 @@
         <display-name>UNIVERSITARIO vs FERRO CARRRIL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/a3jyd3ypo66ujaj717nlclmk9a3b" />
     </channel>
-    <programme start="20260919093000 -0300" stop="20260919113000 -0300" channel="TEV_1026">
-        <title lang="es">CANCHA 360</title>
-        <desc lang="es">TODA LA INFO DEL FUTBOL JUVENIL</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/eehc3ibgv1g8yvzw98hwalt9ivs2" />
-    </programme>
     <programme start="20260919190000 -0300" stop="20260919205900 -0300" channel="TEV_1024">
         <title lang="es">LIBERTAD vs SALTO NUEVO</title>
         <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
