@@ -1,2 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1057">
+        <display-name>ARSENAL vs NACIONAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gi9luht2lt3q0iigh7u9n9agwefl" />
+    </channel>
+    <channel id="TEV_1059">
+        <display-name>SALTO URUGUAY vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/de4ar35nd5819il4wljk12u7dvui" />
+    </channel>
+    <channel id="TEV_1058">
+        <display-name>GLADIADOR vs CEIBAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3u3vp556tjrll2u2ddyil4hbthfi" />
+    </channel>
+    <channel id="TEV_1060">
+        <display-name>PARQUE SOLARI vs RIVER PLATE</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7xn14ewg89yeldmq5b4xip2j1u5n" />
+    </channel>
+    <programme start="20260920140000 -0300" stop="20260920162000 -0300" channel="TEV_1057">
+        <title lang="es">ARSENAL vs NACIONAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gi9luht2lt3q0iigh7u9n9agwefl" />
+    </programme>
+    <programme start="20260920141500 -0300" stop="20260920161000 -0300" channel="TEV_1059">
+        <title lang="es">SALTO URUGUAY vs ALMAGRO</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/de4ar35nd5819il4wljk12u7dvui" />
+    </programme>
+    <programme start="20260920162500 -0300" stop="20260920185900 -0300" channel="TEV_1058">
+        <title lang="es">GLADIADOR vs CEIBAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3u3vp556tjrll2u2ddyil4hbthfi" />
+    </programme>
+    <programme start="20260920163000 -0300" stop="20260920185900 -0300" channel="TEV_1060">
+        <title lang="es">PARQUE SOLARI vs RIVER PLATE</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7xn14ewg89yeldmq5b4xip2j1u5n" />
+    </programme>
+</tv>
