@@ -1,23 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1060">
-        <display-name>PARQUE SOLARI vs RIVER PLATE</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7xn14ewg89yeldmq5b4xip2j1u5n" />
+    <channel id="TEV_1123">
+        <display-name>SHOW DE GOLES</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s3myryd26pko4oly9eigkectff6c" />
     </channel>
-    <channel id="TEV_1058">
-        <display-name>GLADIADOR vs CEIBAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3u3vp556tjrll2u2ddyil4hbthfi" />
-    </channel>
-    <programme start="20260920163300 -0300" stop="20260920185900 -0300" channel="TEV_1060">
-        <title lang="es">PARQUE SOLARI vs RIVER PLATE</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7xn14ewg89yeldmq5b4xip2j1u5n" />
-    </programme>
-    <programme start="20260920163900 -0300" stop="20260920185900 -0300" channel="TEV_1058">
-        <title lang="es">GLADIADOR vs CEIBAL</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3u3vp556tjrll2u2ddyil4hbthfi" />
+    <programme start="20260921210000 -0300" stop="20260921225900 -0300" channel="TEV_1123">
+        <title lang="es">SHOW DE GOLES</title>
+        <desc lang="es">TODOS LOS GOLES DE LA FECHA</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/s3myryd26pko4oly9eigkectff6c" />
     </programme>
 </tv>
