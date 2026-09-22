@@ -4,7 +4,7 @@
         <display-name>SHOW DE GOLES</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/s3myryd26pko4oly9eigkectff6c" />
     </channel>
-    <programme start="20260921210000 -0300" stop="20260921225900 -0300" channel="TEV_1123">
+    <programme start="20260921210000 -0300" stop="20260921224300 -0300" channel="TEV_1123">
         <title lang="es">SHOW DE GOLES</title>
         <desc lang="es">TODOS LOS GOLES DE LA FECHA</desc>
         <category lang="es">PROGRAMAS</category>
