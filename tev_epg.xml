@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1189">
-        <display-name>FERRO CARRRIL vs SALTO URUGUAY</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2intmdjzib2ietsiwmu38s6e4wqe" />
-    </channel>
-    <channel id="TEV_1190">
-        <display-name>CEIBAL vs NACIONAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/47hvnhlcwf008wekoyg0goqtjvtr" />
-    </channel>
-    <programme start="20260923190500 -0300" stop="20260923211000 -0300" channel="TEV_1189">
-        <title lang="es">FERRO CARRRIL vs SALTO URUGUAY</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2intmdjzib2ietsiwmu38s6e4wqe" />
-    </programme>
-    <programme start="20260923212000 -0300" stop="20260923235900 -0300" channel="TEV_1190">
-        <title lang="es">CEIBAL vs NACIONAL</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/47hvnhlcwf008wekoyg0goqtjvtr" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
