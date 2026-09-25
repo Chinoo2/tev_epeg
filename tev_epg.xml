@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1256">
-        <display-name>RIVER PLATE vs UNIVERSITARIO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7x5812hb1230r7bekufsu7lqpeao" />
-    </channel>
     <channel id="TEV_1255">
         <display-name>LSB: CIRCULO SPORTIVO vs FERRO CARRIL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/up0n1hg6hdvpof53h03dd4u783bm" />
@@ -12,19 +8,13 @@
         <display-name>SALTO NUEVO vs ARSENAL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/7axnabciw0imp7tcsreui3o6f53f" />
     </channel>
-    <programme start="20260924192000 -0300" stop="20260924222000 -0300" channel="TEV_1256">
-        <title lang="es">RIVER PLATE vs UNIVERSITARIO</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7x5812hb1230r7bekufsu7lqpeao" />
-    </programme>
-    <programme start="20260924210000 -0300" stop="20260924235900 -0300" channel="TEV_1255">
+    <programme start="20260924211000 -0300" stop="20260924235900 -0300" channel="TEV_1255">
         <title lang="es">LSB: CIRCULO SPORTIVO vs FERRO CARRIL</title>
         <desc lang="es">BASQUETBOL DE PRIMERA DIVISION</desc>
         <category lang="es">BASQUETBOL</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/up0n1hg6hdvpof53h03dd4u783bm" />
     </programme>
-    <programme start="20260924212000 -0300" stop="20260924235900 -0300" channel="TEV_1257">
+    <programme start="20260924214000 -0300" stop="20260924235900 -0300" channel="TEV_1257">
         <title lang="es">SALTO NUEVO vs ARSENAL</title>
         <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
