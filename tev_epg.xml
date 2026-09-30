@@ -1,2 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1420">
+        <display-name>FERRO CARRRIL vs CEIBAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rxnh9l7yyu1tnpgzn8pa8r7d4ofl" />
+    </channel>
+    <channel id="TEV_1422">
+        <display-name>AL ARO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v7e76bjz9ruqkwgyvw7f23jnsqfk" />
+    </channel>
+    <channel id="TEV_1421">
+        <display-name>GLADIADOR vs LIBERTAD</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0k9647ghpgyjouvyyyvvxfn0bfyb" />
+    </channel>
+    <programme start="20260930190000 -0300" stop="20260930213000 -0300" channel="TEV_1420">
+        <title lang="es">FERRO CARRRIL vs CEIBAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rxnh9l7yyu1tnpgzn8pa8r7d4ofl" />
+    </programme>
+    <programme start="20260930190000 -0300" stop="20260930212000 -0300" channel="TEV_1422">
+        <title lang="es">AL ARO</title>
+        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL SALTEÑO</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/v7e76bjz9ruqkwgyvw7f23jnsqfk" />
+    </programme>
+    <programme start="20260930213000 -0300" stop="20260930235900 -0300" channel="TEV_1421">
+        <title lang="es">GLADIADOR vs LIBERTAD</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0k9647ghpgyjouvyyyvvxfn0bfyb" />
+    </programme>
+</tv>
