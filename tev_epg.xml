@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1453">
+        <display-name>LSB: UNIVERSITARIO vs CIRCULO SPORTIVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4u353qqotvu5qx3h67iu0rlad2dm" />
+    </channel>
+    <programme start="20261001211000 -0300" stop="20261001235900 -0300" channel="TEV_1453">
+        <title lang="es">LSB: UNIVERSITARIO vs CIRCULO SPORTIVO</title>
+        <desc lang="es">BASQUETBOL DE PRIMERA</desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4u353qqotvu5qx3h67iu0rlad2dm" />
+    </programme>
+</tv>
