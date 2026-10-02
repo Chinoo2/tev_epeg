@@ -1,2 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1487">
+        <display-name>AHORA TODO PUEDE PASAR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/30omyh3s4dumebov8q3x4j9eehiv" />
+    </channel>
+    <channel id="TEV_1486">
+        <display-name>LSB: FERRO CARRIL vs JUVENTUS</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e74w20vqgzqf77zlf7b1e6wfg81h" />
+    </channel>
+    <programme start="20261002200000 -0300" stop="20261002235600 -0300" channel="TEV_1487">
+        <title lang="es">AHORA TODO PUEDE PASAR</title>
+        <desc lang="es">ENTRETENIMIENTO Y ACTUALIDAD CON HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/30omyh3s4dumebov8q3x4j9eehiv" />
+    </programme>
+    <programme start="20261002211000 -0300" stop="20261002235900 -0300" channel="TEV_1486">
+        <title lang="es">LSB: FERRO CARRIL vs JUVENTUS</title>
+        <desc lang="es">BASQUETBOL DE PRIMERA </desc>
+        <category lang="es">TODO EN VIVO</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e74w20vqgzqf77zlf7b1e6wfg81h" />
+    </programme>
+</tv>
