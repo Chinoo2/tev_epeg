@@ -1,13 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1519">
-        <display-name>ANTESALA DEL FUTBOL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/u957fiamwxthee1dg3q5bt2ge7ja" />
+    <channel id="TEV_1520">
+        <display-name>ARSENAL vs RIVER PLATE</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/uea7ac7r3ua394wckfrc5shxukky" />
     </channel>
-    <programme start="20261004113000 -0300" stop="20261004130000 -0300" channel="TEV_1519">
-        <title lang="es">ANTESALA DEL FUTBOL</title>
-        <desc lang="es">MUSICA, HUMOR </desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/u957fiamwxthee1dg3q5bt2ge7ja" />
+    <channel id="TEV_1521">
+        <display-name>SALTO URUGUAY vs PARQUE SOLARI</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/66mnsrqagzp8dg50drjikkah5nx9" />
+    </channel>
+    <channel id="TEV_1523">
+        <display-name>NACIONAL vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/857eqji8nq4tsy9038pa9k0bwq6a" />
+    </channel>
+    <channel id="TEV_1522">
+        <display-name>UNIVERSITARIO vs CEIBAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/hl98agdxx4i3w4tywo4mprr3bjm7" />
+    </channel>
+    <programme start="20261004140500 -0300" stop="20261004204100 -0300" channel="TEV_1520">
+        <title lang="es">ARSENAL vs RIVER PLATE</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/uea7ac7r3ua394wckfrc5shxukky" />
+    </programme>
+    <programme start="20261004142500 -0300" stop="20261004174400 -0300" channel="TEV_1521">
+        <title lang="es">SALTO URUGUAY vs PARQUE SOLARI</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/66mnsrqagzp8dg50drjikkah5nx9" />
+    </programme>
+    <programme start="20261004164000 -0300" stop="20261004204500 -0300" channel="TEV_1523">
+        <title lang="es">NACIONAL vs ALMAGRO</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/857eqji8nq4tsy9038pa9k0bwq6a" />
+    </programme>
+    <programme start="20261004164000 -0300" stop="20261004194400 -0300" channel="TEV_1522">
+        <title lang="es">UNIVERSITARIO vs CEIBAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/hl98agdxx4i3w4tywo4mprr3bjm7" />
     </programme>
 </tv>
