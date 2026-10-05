@@ -1,19 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1524">
-        <display-name>CANCHA 360</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/63kjfulob7bq1tls0zyzhvr4ehef" />
-    </channel>
     <channel id="TEV_1525">
         <display-name>SHOW DE GOLES</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/ojmj4vzegfcstzkh5rg1ak69p7e7" />
     </channel>
-    <programme start="20261005140000 -0300" stop="20261005161000 -0300" channel="TEV_1524">
-        <title lang="es">CANCHA 360</title>
-        <desc lang="es">TODA LA INFORMACION DEL FUTBOL JUVENIL</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/63kjfulob7bq1tls0zyzhvr4ehef" />
-    </programme>
     <programme start="20261005210000 -0300" stop="20261005231200 -0300" channel="TEV_1525">
         <title lang="es">SHOW DE GOLES</title>
         <desc lang="es">TODOS LOS GOLES DE LA FECHA </desc>
