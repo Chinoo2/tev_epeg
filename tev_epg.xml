@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1552">
-        <display-name>FUTBOL NUESTRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6ss8wlcgdmta3wlzdgqcx0iybmsj" />
-    </channel>
-    <programme start="20261006210000 -0300" stop="20261006232100 -0300" channel="TEV_1552">
-        <title lang="es">FUTBOL NUESTRO</title>
-        <desc lang="es">TODO EL ANALISIS DE LA FECHA </desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6ss8wlcgdmta3wlzdgqcx0iybmsj" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
