@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1587">
-        <display-name>GLADIADOR vs SALTO NUEVO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/i4ztwc9e1wn912hd62fmfl0at1ek" />
-    </channel>
-    <programme start="20261007213400 -0300" stop="20261007235900 -0300" channel="TEV_1587">
-        <title lang="es">GLADIADOR vs SALTO NUEVO</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/i4ztwc9e1wn912hd62fmfl0at1ek" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
