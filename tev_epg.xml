@@ -1,30 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1585">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/zpavkkjquwgra9myuyfbyzotbzgy" />
-    </channel>
-    <channel id="TEV_1586">
-        <display-name>FERRO CARRRIL vs LIBERTAD</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/293vsoa3wv8lgs7zvzvkyw4s2qqp" />
-    </channel>
     <channel id="TEV_1587">
         <display-name>GLADIADOR vs SALTO NUEVO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/i4ztwc9e1wn912hd62fmfl0at1ek" />
     </channel>
-    <programme start="20261007190000 -0300" stop="20261007213500 -0300" channel="TEV_1585">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL SALTEÑO</desc>
-        <category lang="es">TODO EN VIVO</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/zpavkkjquwgra9myuyfbyzotbzgy" />
-    </programme>
-    <programme start="20261007190500 -0300" stop="20261007223700 -0300" channel="TEV_1586">
-        <title lang="es">FERRO CARRRIL vs LIBERTAD</title>
-        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/293vsoa3wv8lgs7zvzvkyw4s2qqp" />
-    </programme>
-    <programme start="20261007212500 -0300" stop="20261007235900 -0300" channel="TEV_1587">
+    <programme start="20261007213400 -0300" stop="20261007235900 -0300" channel="TEV_1587">
         <title lang="es">GLADIADOR vs SALTO NUEVO</title>
         <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
