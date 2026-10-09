@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1618">
+        <display-name>LSB: CÍRCULO SPORTIVO vs SALTO URUGUAY </display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tqp1p9acuwuedwah2huuxyayeizm" />
+    </channel>
+    <programme start="20261008212000 -0300" stop="20261008235900 -0300" channel="TEV_1618">
+        <title lang="es">LSB: CÍRCULO SPORTIVO vs SALTO URUGUAY </title>
+        <desc lang="es">BASQUETBOL DE PRIMERA DIVISIÓN </desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tqp1p9acuwuedwah2huuxyayeizm" />
+    </programme>
+</tv>
