@@ -1,2 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1717">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ihemfz7dvvsv9y3y1phkh1mck4s5" />
+    </channel>
+    <channel id="TEV_1718">
+        <display-name>NACIONAL vs FERRO CARRRIL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4x19k1i2deh03kzx356lf2mca3bp" />
+    </channel>
+    <channel id="TEV_1719">
+        <display-name>CEIBAL vs SALTO NUEVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/d7vxbxftewrmxnjjmlx8u42jy3jd" />
+    </channel>
+    <programme start="20261011110000 -0300" stop="20261011130000 -0300" channel="TEV_1717">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">MUSICA, HUMOR </desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ihemfz7dvvsv9y3y1phkh1mck4s5" />
+    </programme>
+    <programme start="20261011140000 -0300" stop="20261011164000 -0300" channel="TEV_1718">
+        <title lang="es">NACIONAL vs FERRO CARRRIL</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4x19k1i2deh03kzx356lf2mca3bp" />
+    </programme>
+    <programme start="20261011163000 -0300" stop="20261011203000 -0300" channel="TEV_1719">
+        <title lang="es">CEIBAL vs SALTO NUEVO</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/d7vxbxftewrmxnjjmlx8u42jy3jd" />
+    </programme>
+</tv>
