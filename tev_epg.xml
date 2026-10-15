@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1817">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vpvfg2wj3ybf0dai5m8zd9fxrwwk" />
-    </channel>
-    <channel id="TEV_1816">
-        <display-name>GLADIADOR vs SALTO NUEVO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/386u784db2onlo04lmbmqwzojg6w" />
-    </channel>
-    <programme start="20261014191500 -0300" stop="20261014225200 -0300" channel="TEV_1817">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL SALTEÑO</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vpvfg2wj3ybf0dai5m8zd9fxrwwk" />
-    </programme>
-    <programme start="20261014194000 -0300" stop="20261014235900 -0300" channel="TEV_1816">
-        <title lang="es">GLADIADOR vs SALTO NUEVO</title>
-        <desc lang="es">COMPLEMENTO DE ENCUENTRO SUSPENDIDO POR INCLEMENCIAS CLIMATICAS</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/386u784db2onlo04lmbmqwzojg6w" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
