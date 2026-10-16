@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_1849">
-        <display-name>CIERRE MES DE LA JUVENTUD</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/37owg02z4jpiqt2dm15zm7ezp1x6" />
-    </channel>
-    <channel id="TEV_1850">
-        <display-name>LSB: JUVENTUS vs CÍRCULO SPORTIVO </display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/thhlwzxnabpla0lfnsq8ymrh2dtq" />
-    </channel>
-    <programme start="20261015182300 -0300" stop="20261016181100 -0300" channel="TEV_1849">
-        <title lang="es">CIERRE MES DE LA JUVENTUD</title>
-        <desc lang="es">EL CIERRE DEL MES DE LA JUVENTUD ES CON LOS FATALES EN PLAZA ARTIGAS.</desc>
-        <category lang="es">EVENTOS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/37owg02z4jpiqt2dm15zm7ezp1x6" />
-    </programme>
-    <programme start="20261015210000 -0300" stop="20261015235900 -0300" channel="TEV_1850">
-        <title lang="es">LSB: JUVENTUS vs CÍRCULO SPORTIVO </title>
-        <desc lang="es">BASQUETBOL DE PRIMERA </desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/thhlwzxnabpla0lfnsq8ymrh2dtq" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
