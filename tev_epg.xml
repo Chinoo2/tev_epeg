@@ -1,2 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_1883">
+        <display-name>AHORA TODO PUEDE PASAR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/94kqeaiafbu9yimd61ih8xz96o36" />
+    </channel>
+    <channel id="TEV_1882">
+        <display-name>LSB: SALTO URUGUAY vs UNIVERSITARIO </display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/jsuuna2h4p93m2xru3atsj6fx4n1" />
+    </channel>
+    <programme start="20261016190000 -0300" stop="20261016230000 -0300" channel="TEV_1883">
+        <title lang="es">AHORA TODO PUEDE PASAR</title>
+        <desc lang="es">ACTUALIDAD CON HUMOR </desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/94kqeaiafbu9yimd61ih8xz96o36" />
+    </programme>
+    <programme start="20261016210000 -0300" stop="20261016235900 -0300" channel="TEV_1882">
+        <title lang="es">LSB: SALTO URUGUAY vs UNIVERSITARIO </title>
+        <desc lang="es">BASQUETBOL DE PRIMERA</desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/jsuuna2h4p93m2xru3atsj6fx4n1" />
+    </programme>
+</tv>
