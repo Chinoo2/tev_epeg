@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2014">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/c6108v22wyaugzbrq58rn3k80e4d" />
-    </channel>
-    <programme start="20261021190000 -0300" stop="20261021230000 -0300" channel="TEV_2014">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL SALTEÑO</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/c6108v22wyaugzbrq58rn3k80e4d" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
