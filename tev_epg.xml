@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2081">
-        <display-name>AHORA TODO PUEDE PASAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2pjix1jdt7zq0o4wnoymi31pwsm9" />
-    </channel>
     <channel id="TEV_2080">
         <display-name>LSB: UNIVERSITARIO vs JUVENTUS</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/dm9asytjx9hystmdqvtuj8lhzk7y" />
     </channel>
-    <programme start="20261023200000 -0300" stop="20261023235900 -0300" channel="TEV_2081">
-        <title lang="es">AHORA TODO PUEDE PASAR</title>
-        <desc lang="es">ACTUALIDAD CON HUMOR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2pjix1jdt7zq0o4wnoymi31pwsm9" />
-    </programme>
-    <programme start="20261023210000 -0300" stop="20261023235900 -0300" channel="TEV_2080">
+    <programme start="20261023210200 -0300" stop="20261023235900 -0300" channel="TEV_2080">
         <title lang="es">LSB: UNIVERSITARIO vs JUVENTUS</title>
         <desc lang="es">BASQUETBOL DE PRIMERA</desc>
         <category lang="es">BASQUETBOL</category>
