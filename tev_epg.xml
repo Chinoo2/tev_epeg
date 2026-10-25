@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2146">
-        <display-name>ANTESALA DEL FUTBOL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4tl7h3i10bvgf1fnc1tpifshh05q" />
-    </channel>
-    <programme start="20261025113000 -0300" stop="20261025130100 -0300" channel="TEV_2146">
-        <title lang="es">ANTESALA DEL FUTBOL</title>
-        <desc lang="es">INFORMACION, MUSICA Y HUMOR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4tl7h3i10bvgf1fnc1tpifshh05q" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
