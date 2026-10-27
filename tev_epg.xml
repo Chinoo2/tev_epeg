@@ -1,2 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2179">
+        <display-name>NACIONAL vs RIVER PLATE</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8b6os4t7a32dnnjdqeab4zlvbw87" />
+    </channel>
+    <channel id="TEV_2180">
+        <display-name>FERRO CARRRIL vs GLADIADOR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ege0b2bvafmg4tyagldexj96fw54" />
+    </channel>
+    <channel id="TEV_2181">
+        <display-name>SALTO URUGUAY vs SALTO NUEVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fgllvml6fii7y4imwiwledm3142k" />
+    </channel>
+    <channel id="TEV_2182">
+        <display-name>ARSENAL vs UNIVERSITARIO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4p98fup3cxqm16x6dcx3o7ov7s2x" />
+    </channel>
+    <programme start="20261027190000 -0300" stop="20261027233000 -0300" channel="TEV_2179">
+        <title lang="es">NACIONAL vs RIVER PLATE</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8b6os4t7a32dnnjdqeab4zlvbw87" />
+    </programme>
+    <programme start="20261027213000 -0300" stop="20261027235900 -0300" channel="TEV_2180">
+        <title lang="es">FERRO CARRRIL vs GLADIADOR</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ege0b2bvafmg4tyagldexj96fw54" />
+    </programme>
+    <programme start="20261028190000 -0300" stop="20261028233200 -0300" channel="TEV_2181">
+        <title lang="es">SALTO URUGUAY vs SALTO NUEVO</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fgllvml6fii7y4imwiwledm3142k" />
+    </programme>
+    <programme start="20261028213000 -0300" stop="20261028235900 -0300" channel="TEV_2182">
+        <title lang="es">ARSENAL vs UNIVERSITARIO</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/4p98fup3cxqm16x6dcx3o7ov7s2x" />
+    </programme>
+</tv>
