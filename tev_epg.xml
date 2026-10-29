@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2245">
+        <display-name>LSB: FERRO CARRIL vs CÍRCULO SPORTIVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2k4fsvtzbpk640xzu0n1478m4pdl" />
+    </channel>
+    <programme start="20261029210000 -0300" stop="20261029235900 -0300" channel="TEV_2245">
+        <title lang="es">LSB: FERRO CARRIL vs CÍRCULO SPORTIVO</title>
+        <desc lang="es">BASQUETBOL DE PRILERA </desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/2k4fsvtzbpk640xzu0n1478m4pdl" />
+    </programme>
+</tv>
