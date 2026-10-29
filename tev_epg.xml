@@ -1,29 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2212">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/dutc7re5n9p0pvgktn0otxqr8b0a" />
-    </channel>
-    <channel id="TEV_2181">
-        <display-name>SALTO URUGUAY vs SALTO NUEVO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fgllvml6fii7y4imwiwledm3142k" />
-    </channel>
     <channel id="TEV_2182">
         <display-name>ARSENAL vs UNIVERSITARIO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/4p98fup3cxqm16x6dcx3o7ov7s2x" />
     </channel>
-    <programme start="20261028190000 -0300" stop="20261028230000 -0300" channel="TEV_2212">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODA LA INFO DEL BASQUETBOL</desc>
-        <category lang="es">TODO EN VIVO</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/dutc7re5n9p0pvgktn0otxqr8b0a" />
-    </programme>
-    <programme start="20261028190500 -0300" stop="20261028233200 -0300" channel="TEV_2181">
-        <title lang="es">SALTO URUGUAY vs SALTO NUEVO</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fgllvml6fii7y4imwiwledm3142k" />
-    </programme>
     <programme start="20261028213000 -0300" stop="20261028235900 -0300" channel="TEV_2182">
         <title lang="es">ARSENAL vs UNIVERSITARIO</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
