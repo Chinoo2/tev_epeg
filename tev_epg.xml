@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2312">
+        <display-name>FERRO CARRRIL vs NACIONAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/dp0hagq5ungqeo3p8vrixr5i1oek" />
+    </channel>
+    <programme start="20261031193000 -0300" stop="20261031235800 -0300" channel="TEV_2312">
+        <title lang="es">FERRO CARRRIL vs NACIONAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/dp0hagq5ungqeo3p8vrixr5i1oek" />
+    </programme>
+</tv>
