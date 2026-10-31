@@ -1,2 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2279">
+        <display-name>JUVENTUS vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5uztfatkja8slhcbyrhd5ptq0342" />
+    </channel>
+    <programme start="20261030210000 -0300" stop="20261030235900 -0300" channel="TEV_2279">
+        <title lang="es">JUVENTUS vs SALTO URUGUAY</title>
+        <desc lang="es">BASQUETBOL DE PRIMERA</desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5uztfatkja8slhcbyrhd5ptq0342" />
+    </programme>
+</tv>
