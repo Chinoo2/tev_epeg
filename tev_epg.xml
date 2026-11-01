@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2313">
-        <display-name>ANTESALA DEL FUTBOL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/jsxampznyta06viwpdkuwzqss5ua" />
-    </channel>
-    <channel id="TEV_2314">
-        <display-name>ARSENAL vs SALTO NUEVO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tq1zc6ls8i8vfvm20p945wvqlkpa" />
-    </channel>
     <channel id="TEV_2317">
         <display-name>ALMAGRO vs SALTO URUGUAY</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/q19d7w5b1jgj5pww7aahlw151tqs" />
@@ -24,18 +16,6 @@
         <display-name>RIVER PLATE vs CEIBAL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/lq7smfwo34c0zo4ynt6hptdw4bn3" />
     </channel>
-    <programme start="20261101113000 -0300" stop="20261101130300 -0300" channel="TEV_2313">
-        <title lang="es">ANTESALA DEL FUTBOL</title>
-        <desc lang="es">INFORMACION, MUSICA Y HUMOR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/jsxampznyta06viwpdkuwzqss5ua" />
-    </programme>
-    <programme start="20261101143000 -0300" stop="20261101171900 -0300" channel="TEV_2314">
-        <title lang="es">ARSENAL vs SALTO NUEVO</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tq1zc6ls8i8vfvm20p945wvqlkpa" />
-    </programme>
     <programme start="20261101145500 -0300" stop="20261101222700 -0300" channel="TEV_2317">
         <title lang="es">ALMAGRO vs SALTO URUGUAY</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
