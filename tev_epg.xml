@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2316">
-        <display-name>RIVER PLATE vs CEIBAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/lq7smfwo34c0zo4ynt6hptdw4bn3" />
-    </channel>
-    <programme start="20261101193000 -0300" stop="20261101222200 -0300" channel="TEV_2316">
-        <title lang="es">RIVER PLATE vs CEIBAL</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/lq7smfwo34c0zo4ynt6hptdw4bn3" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
