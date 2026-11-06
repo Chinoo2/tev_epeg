@@ -1,2 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2445">
+        <display-name>BOX - TÍTULO CUBAP</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vjj7srp2irs5e89fhjvtb9ikzysl" />
+    </channel>
+    <channel id="TEV_2444">
+        <display-name>AHORA TODO PUEDE PASAR</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/38dr0qtnez9l964pmml89h3kqzja" />
+    </channel>
+    <channel id="TEV_2443">
+        <display-name>LSB: FERRO CARRIL vs JUVENTUS</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rpoc5m4k9cu86i66e78onja60yun" />
+    </channel>
+    <programme start="20261106193000 -0300" stop="20261107040000 -0300" channel="TEV_2445">
+        <title lang="es">BOX - TÍTULO CUBAP</title>
+        <desc lang="es">MARIO FURTADO vs EDUARDO PORTILLO</desc>
+        <category lang="es">EVENTOS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vjj7srp2irs5e89fhjvtb9ikzysl" />
+    </programme>
+    <programme start="20261106200000 -0300" stop="20261106235900 -0300" channel="TEV_2444">
+        <title lang="es">AHORA TODO PUEDE PASAR</title>
+        <desc lang="es">ACTUALIDAD CON HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/38dr0qtnez9l964pmml89h3kqzja" />
+    </programme>
+    <programme start="20261106210000 -0300" stop="20261106235900 -0300" channel="TEV_2443">
+        <title lang="es">LSB: FERRO CARRIL vs JUVENTUS</title>
+        <desc lang="es">Basquetbol de primera </desc>
+        <category lang="es">TODO EN VIVO</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/rpoc5m4k9cu86i66e78onja60yun" />
+    </programme>
+</tv>
