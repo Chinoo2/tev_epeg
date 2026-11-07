@@ -1,2 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2476">
+        <display-name>UNIVERSITARIO vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3ztzmy1n5tjycao0jwyv50lxh92g" />
+    </channel>
+    <channel id="TEV_2477">
+        <display-name>ARSENAL vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/1imim5njlejemraevk4asuel9e3z" />
+    </channel>
+    <channel id="TEV_2478">
+        <display-name>FESTEJOS 270 AÑOS DE SALTO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e5ssg2kpnkdk0czljrf8j3byvrue" />
+    </channel>
+    <programme start="20261107183000 -0300" stop="20261107211000 -0300" channel="TEV_2476">
+        <title lang="es">UNIVERSITARIO vs ALMAGRO</title>
+        <desc lang="es">Divisional Primera "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3ztzmy1n5tjycao0jwyv50lxh92g" />
+    </programme>
+    <programme start="20261107210500 -0300" stop="20261107235900 -0300" channel="TEV_2477">
+        <title lang="es">ARSENAL vs SALTO URUGUAY</title>
+        <desc lang="es">Divisional Primera "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/1imim5njlejemraevk4asuel9e3z" />
+    </programme>
+    <programme start="20261107225000 -0300" stop="20261108041200 -0300" channel="TEV_2478">
+        <title lang="es">FESTEJOS 270 AÑOS DE SALTO</title>
+        <desc lang="es">Espectaculos artísticos celebrando los 270 años de Salto.</desc>
+        <category lang="es">EVENTOS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e5ssg2kpnkdk0czljrf8j3byvrue" />
+    </programme>
+</tv>
