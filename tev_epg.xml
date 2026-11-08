@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2476">
-        <display-name>UNIVERSITARIO vs ALMAGRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3ztzmy1n5tjycao0jwyv50lxh92g" />
+    <channel id="TEV_2479">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yvob1looeckf27q10e8y8whh26cc" />
     </channel>
-    <channel id="TEV_2477">
-        <display-name>ARSENAL vs SALTO URUGUAY</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/1imim5njlejemraevk4asuel9e3z" />
+    <channel id="TEV_2480">
+        <display-name>FERRO CARRRIL vs RIVER PLATE</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9v39kok6cl5o0v2ohak8fbnopxp2" />
     </channel>
-    <channel id="TEV_2478">
-        <display-name>FESTEJOS 270 AÑOS DE SALTO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e5ssg2kpnkdk0czljrf8j3byvrue" />
+    <channel id="TEV_2481">
+        <display-name>GLADIADOR vs CEIBAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/36r6zt9otjfrcnvlu8mmn8r5qm62" />
     </channel>
-    <programme start="20261107183000 -0300" stop="20261107211000 -0300" channel="TEV_2476">
-        <title lang="es">UNIVERSITARIO vs ALMAGRO</title>
+    <programme start="20261108113000 -0300" stop="20261108130300 -0300" channel="TEV_2479">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">INFORMACION, MUSICA Y HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yvob1looeckf27q10e8y8whh26cc" />
+    </programme>
+    <programme start="20261108160000 -0300" stop="20261108183000 -0300" channel="TEV_2480">
+        <title lang="es">FERRO CARRRIL vs RIVER PLATE</title>
         <desc lang="es">Divisional Primera "A"</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/3ztzmy1n5tjycao0jwyv50lxh92g" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9v39kok6cl5o0v2ohak8fbnopxp2" />
     </programme>
-    <programme start="20261107210500 -0300" stop="20261107235900 -0300" channel="TEV_2477">
-        <title lang="es">ARSENAL vs SALTO URUGUAY</title>
+    <programme start="20261108183500 -0300" stop="20261108214700 -0300" channel="TEV_2481">
+        <title lang="es">GLADIADOR vs CEIBAL</title>
         <desc lang="es">Divisional Primera "A"</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/1imim5njlejemraevk4asuel9e3z" />
-    </programme>
-    <programme start="20261107225000 -0300" stop="20261108041200 -0300" channel="TEV_2478">
-        <title lang="es">FESTEJOS 270 AÑOS DE SALTO</title>
-        <desc lang="es">Espectaculos artísticos celebrando los 270 años de Salto.</desc>
-        <category lang="es">EVENTOS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e5ssg2kpnkdk0czljrf8j3byvrue" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/36r6zt9otjfrcnvlu8mmn8r5qm62" />
     </programme>
 </tv>
