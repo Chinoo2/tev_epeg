@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2482">
-        <display-name>FESTEJOS 270 AÑOS DE SALTO - SHOW DE LUCAS SUGO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h6fkktgqci7f3cwb4j1jo1bdu3xl" />
-    </channel>
-    <programme start="20261108212000 -0300" stop="20261109185200 -0300" channel="TEV_2482">
-        <title lang="es">FESTEJOS 270 AÑOS DE SALTO - SHOW DE LUCAS SUGO</title>
-        <desc lang="es">Espectaculos artísticos celebrando los 270 años de Salto.</desc>
-        <category lang="es">EVENTOS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h6fkktgqci7f3cwb4j1jo1bdu3xl" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
