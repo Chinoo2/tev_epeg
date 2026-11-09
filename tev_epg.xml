@@ -1,23 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2480">
-        <display-name>FERRO CARRRIL vs RIVER PLATE</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9v39kok6cl5o0v2ohak8fbnopxp2" />
+    <channel id="TEV_2482">
+        <display-name>FESTEJOS 270 AÑOS DE SALTO - SHOW DE LUCAS SUGO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h6fkktgqci7f3cwb4j1jo1bdu3xl" />
     </channel>
-    <channel id="TEV_2481">
-        <display-name>GLADIADOR vs CEIBAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/36r6zt9otjfrcnvlu8mmn8r5qm62" />
-    </channel>
-    <programme start="20261108161000 -0300" stop="20261108183000 -0300" channel="TEV_2480">
-        <title lang="es">FERRO CARRRIL vs RIVER PLATE</title>
-        <desc lang="es">Divisional Primera "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9v39kok6cl5o0v2ohak8fbnopxp2" />
-    </programme>
-    <programme start="20261108183500 -0300" stop="20261108214700 -0300" channel="TEV_2481">
-        <title lang="es">GLADIADOR vs CEIBAL</title>
-        <desc lang="es">Divisional Primera "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/36r6zt9otjfrcnvlu8mmn8r5qm62" />
+    <programme start="20261108212000 -0300" stop="20261109185200 -0300" channel="TEV_2482">
+        <title lang="es">FESTEJOS 270 AÑOS DE SALTO - SHOW DE LUCAS SUGO</title>
+        <desc lang="es">Espectaculos artísticos celebrando los 270 años de Salto.</desc>
+        <category lang="es">EVENTOS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/h6fkktgqci7f3cwb4j1jo1bdu3xl" />
     </programme>
 </tv>
