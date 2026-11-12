@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2578">
-        <display-name>CEIBAL vs FERRO CARRIL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ll37e5shrseug3fbvxhishdwze7j" />
-    </channel>
-    <channel id="TEV_2577">
-        <display-name>ARSENAL vs ALMAGRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5r3uwfgs4o7ku6zt6sqggc2fmms9" />
-    </channel>
-    <programme start="20261111213900 -0300" stop="20261112180900 -0300" channel="TEV_2578">
-        <title lang="es">CEIBAL vs FERRO CARRIL</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/ll37e5shrseug3fbvxhishdwze7j" />
-    </programme>
-    <programme start="20261111214100 -0300" stop="20261112180900 -0300" channel="TEV_2577">
-        <title lang="es">ARSENAL vs ALMAGRO</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5r3uwfgs4o7ku6zt6sqggc2fmms9" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
