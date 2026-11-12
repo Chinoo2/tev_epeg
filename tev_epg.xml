@@ -20,10 +20,6 @@
         <display-name>OBL U18: PACAEMBÚ vs PELOTARIS</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/a5ak4cztzok9s567un4wfaseqa3n" />
     </channel>
-    <channel id="TEV_2583">
-        <display-name>OBL U18: TERCER LUGAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/byu4ygz2sr5bn48487wq44k6e90m" />
-    </channel>
     <channel id="TEV_2584">
         <display-name>OBL U18: FINAL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/vaouxpv0izmkdd3zonw08hefskus" />
@@ -57,12 +53,6 @@
         <desc lang="es">FINAL TOUR </desc>
         <category lang="es">BASQUETBOL</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/a5ak4cztzok9s567un4wfaseqa3n" />
-    </programme>
-    <programme start="20261114160000 -0300" stop="20261114183000 -0300" channel="TEV_2583">
-        <title lang="es">OBL U18: TERCER LUGAR</title>
-        <desc lang="es">FINAL TOUR</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/byu4ygz2sr5bn48487wq44k6e90m" />
     </programme>
     <programme start="20261114182000 -0300" stop="20261114233600 -0300" channel="TEV_2584">
         <title lang="es">OBL U18: FINAL</title>
