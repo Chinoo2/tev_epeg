@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2585">
-        <display-name>AHORA TODO PUEDE PASAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/r43xoacyvic4ihcq11pl7y2vs81i" />
-    </channel>
     <channel id="TEV_2580">
         <display-name>LSB: CÍRCULO SPORTIVO vs SALTO URUGUAY</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yz37wfflyx41xjjjvo90kthfdpnb" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tpdxfh28ff9ohm5j4ongo21e11z1" />
     </channel>
     <channel id="TEV_2581">
         <display-name>OBL U18: SALTO URUGUAY vs WANDERERS </display-name>
@@ -24,17 +20,19 @@
         <display-name>OBL U18: FINAL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/vaouxpv0izmkdd3zonw08hefskus" />
     </channel>
-    <programme start="20261113200000 -0300" stop="20261113235900 -0300" channel="TEV_2585">
-        <title lang="es">AHORA TODO PUEDE PASAR</title>
-        <desc lang="es">ACTUALIDAD CON HUMOR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/r43xoacyvic4ihcq11pl7y2vs81i" />
-    </programme>
+    <channel id="TEV_2608">
+        <display-name>SALTO URUGUAY vs UNIVERSITARIO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/746es3xjtok6cd3438j62cwi01zz" />
+    </channel>
+    <channel id="TEV_2609">
+        <display-name>ARSENAL vs LIBERTAD</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
+    </channel>
     <programme start="20261113210000 -0300" stop="20261113235900 -0300" channel="TEV_2580">
         <title lang="es">LSB: CÍRCULO SPORTIVO vs SALTO URUGUAY</title>
         <desc lang="es">BASQUETBOL DE PRIMERA </desc>
         <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/yz37wfflyx41xjjjvo90kthfdpnb" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/tpdxfh28ff9ohm5j4ongo21e11z1" />
     </programme>
     <programme start="20261114095000 -0300" stop="20261114120000 -0300" channel="TEV_2581">
         <title lang="es">OBL U18: SALTO URUGUAY vs WANDERERS </title>
@@ -59,5 +57,17 @@
         <desc lang="es">FINAL TOUR</desc>
         <category lang="es">BASQUETBOL</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/vaouxpv0izmkdd3zonw08hefskus" />
+    </programme>
+    <programme start="20261115160500 -0300" stop="20261115184000 -0300" channel="TEV_2608">
+        <title lang="es">SALTO URUGUAY vs UNIVERSITARIO</title>
+        <desc lang="es">DIVISIONAL PIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/746es3xjtok6cd3438j62cwi01zz" />
+    </programme>
+    <programme start="20261115184000 -0300" stop="20261115220100 -0300" channel="TEV_2609">
+        <title lang="es">ARSENAL vs LIBERTAD</title>
+        <desc lang="es">DIVISIONAL PIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
     </programme>
 </tv>
