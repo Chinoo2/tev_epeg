@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2581">
-        <display-name>OBL U18: SALTO URUGUAY vs WANDERERS </display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k8g3r7so815o4hugukqb0d2uyzqs" />
-    </channel>
     <channel id="TEV_2582">
         <display-name>OBL U18: PACAEMBÚ vs PELOTARIS</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/a5ak4cztzok9s567un4wfaseqa3n" />
@@ -24,13 +20,7 @@
         <display-name>ARSENAL vs LIBERTAD</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
     </channel>
-    <programme start="20261114095000 -0300" stop="20261114120000 -0300" channel="TEV_2581">
-        <title lang="es">OBL U18: SALTO URUGUAY vs WANDERERS </title>
-        <desc lang="es">FINAL TOUR </desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/k8g3r7so815o4hugukqb0d2uyzqs" />
-    </programme>
-    <programme start="20261114115000 -0300" stop="20261114140300 -0300" channel="TEV_2582">
+    <programme start="20261114120000 -0300" stop="20261114140300 -0300" channel="TEV_2582">
         <title lang="es">OBL U18: PACAEMBÚ vs PELOTARIS</title>
         <desc lang="es">FINAL TOUR </desc>
         <category lang="es">BASQUETBOL</category>
