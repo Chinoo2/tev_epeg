@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2583">
-        <display-name>OBL U18: 3er LUGAR - SALTO URUGUAY vs PELOTARIS</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/byu4ygz2sr5bn48487wq44k6e90m" />
-    </channel>
-    <channel id="TEV_2584">
-        <display-name>OBL U18: FINAL - PACAEMBÚ vs WANDERERS</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vaouxpv0izmkdd3zonw08hefskus" />
+    <channel id="TEV_2611">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fcxuwmqc4byf5f6fknnuy2v7vvj4" />
     </channel>
     <channel id="TEV_2608">
         <display-name>SALTO URUGUAY vs UNIVERSITARIO</display-name>
@@ -16,17 +12,11 @@
         <display-name>ARSENAL vs LIBERTAD</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
     </channel>
-    <programme start="20261114161000 -0300" stop="20261114183000 -0300" channel="TEV_2583">
-        <title lang="es">OBL U18: 3er LUGAR - SALTO URUGUAY vs PELOTARIS</title>
-        <desc lang="es">FINAL TOUR</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/byu4ygz2sr5bn48487wq44k6e90m" />
-    </programme>
-    <programme start="20261114182000 -0300" stop="20261114233600 -0300" channel="TEV_2584">
-        <title lang="es">OBL U18: FINAL - PACAEMBÚ vs WANDERERS</title>
-        <desc lang="es">FINAL TOUR</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/vaouxpv0izmkdd3zonw08hefskus" />
+    <programme start="20261115113000 -0300" stop="20261115130300 -0300" channel="TEV_2611">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">INFORMACION, MUSICA Y HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/fcxuwmqc4byf5f6fknnuy2v7vvj4" />
     </programme>
     <programme start="20261115160500 -0300" stop="20261115184000 -0300" channel="TEV_2608">
         <title lang="es">SALTO URUGUAY vs UNIVERSITARIO</title>
