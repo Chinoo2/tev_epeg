@@ -1,23 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2608">
-        <display-name>SALTO URUGUAY vs UNIVERSITARIO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/746es3xjtok6cd3438j62cwi01zz" />
-    </channel>
-    <channel id="TEV_2609">
-        <display-name>ARSENAL vs LIBERTAD</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
-    </channel>
-    <programme start="20261115160500 -0300" stop="20261115184000 -0300" channel="TEV_2608">
-        <title lang="es">SALTO URUGUAY vs UNIVERSITARIO</title>
-        <desc lang="es">DIVISIONAL PIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/746es3xjtok6cd3438j62cwi01zz" />
-    </programme>
-    <programme start="20261115184000 -0300" stop="20261115220100 -0300" channel="TEV_2609">
-        <title lang="es">ARSENAL vs LIBERTAD</title>
-        <desc lang="es">DIVISIONAL PIMERA "A"</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/7mqujkngvq80mu2n19tlfdshh30n" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
