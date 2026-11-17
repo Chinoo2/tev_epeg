@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2613">
-        <display-name>SHOW DE GOLES</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/c4a513m9rgzzros5xxzp9xd4hbmr" />
-    </channel>
     <channel id="TEV_2612">
         <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/l1d0ssnwlf0z2lmob1glry8ktbhj" />
     </channel>
-    <programme start="20261116210000 -0300" stop="20261116235900 -0300" channel="TEV_2613">
-        <title lang="es">SHOW DE GOLES</title>
-        <desc lang="es">TODOS LOS GOLES DE LA FECHA</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/c4a513m9rgzzros5xxzp9xd4hbmr" />
-    </programme>
+    <channel id="TEV_2614">
+        <display-name>AL ARO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bgmlshixj1xy5moymhi46e32o0y3" />
+    </channel>
     <programme start="20261117210000 -0300" stop="20261117235900 -0300" channel="TEV_2612">
         <title lang="es">FUTBOL NUESTRO</title>
         <desc lang="es">TODOS LOS DETALLES DE LA FECHA</desc>
         <category lang="es">PROGRAMAS</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/l1d0ssnwlf0z2lmob1glry8ktbhj" />
+    </programme>
+    <programme start="20261118190000 -0300" stop="20261118231000 -0300" channel="TEV_2614">
+        <title lang="es">AL ARO</title>
+        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL DE PRIMERA</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bgmlshixj1xy5moymhi46e32o0y3" />
     </programme>
 </tv>
