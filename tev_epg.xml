@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2614">
-        <display-name>AL ARO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bgmlshixj1xy5moymhi46e32o0y3" />
+    <channel id="TEV_2617">
+        <display-name>ALMAGRO vs ARSENAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5vcynlnicdqtobkd17d21ufgm7ht" />
     </channel>
-    <programme start="20261118190000 -0300" stop="20261118231000 -0300" channel="TEV_2614">
-        <title lang="es">AL ARO</title>
-        <desc lang="es">TODOS LOS DETALLES DEL BASQUETBOL DE PRIMERA</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/bgmlshixj1xy5moymhi46e32o0y3" />
+    <programme start="20261118213100 -0300" stop="20261118235900 -0300" channel="TEV_2617">
+        <title lang="es">ALMAGRO vs ARSENAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5vcynlnicdqtobkd17d21ufgm7ht" />
     </programme>
 </tv>
