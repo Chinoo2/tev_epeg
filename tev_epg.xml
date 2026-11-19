@@ -1,13 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2617">
-        <display-name>ALMAGRO vs ARSENAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5vcynlnicdqtobkd17d21ufgm7ht" />
+    <channel id="TEV_2618">
+        <display-name>UNIVERSITARIO vs SALTO NUEVO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0z37aikm3ll98otup2rkj0spkf1j" />
     </channel>
-    <programme start="20261118213100 -0300" stop="20261118235900 -0300" channel="TEV_2617">
-        <title lang="es">ALMAGRO vs ARSENAL</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+    <channel id="TEV_2619">
+        <display-name>GLADIADOR vs FERRO CARRIL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0ckjs3nvoi7we3bsk3r2o1dzxbds" />
+    </channel>
+    <programme start="20261119191000 -0300" stop="20261119234400 -0300" channel="TEV_2618">
+        <title lang="es">UNIVERSITARIO vs SALTO NUEVO</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5vcynlnicdqtobkd17d21ufgm7ht" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0z37aikm3ll98otup2rkj0spkf1j" />
+    </programme>
+    <programme start="20261119214000 -0300" stop="20261119235900 -0300" channel="TEV_2619">
+        <title lang="es">GLADIADOR vs FERRO CARRIL</title>
+        <desc lang="es">DIVISIONAL PRIMERA "A"</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/0ckjs3nvoi7we3bsk3r2o1dzxbds" />
     </programme>
 </tv>
