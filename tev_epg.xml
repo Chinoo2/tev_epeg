@@ -1,13 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2620">
-        <display-name>AHORA TODO PUEDE PASAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8ynci3mfmc7pmpv8fqyaomodohdh" />
-    </channel>
-    <programme start="20261120201000 -0300" stop="20261120234000 -0300" channel="TEV_2620">
-        <title lang="es">AHORA TODO PUEDE PASAR</title>
-        <desc lang="es">AHORA TODO PUEDE PASAR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/8ynci3mfmc7pmpv8fqyaomodohdh" />
-    </programme>
-</tv>
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
