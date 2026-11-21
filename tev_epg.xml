@@ -1,2 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv" />
+<tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2621">
+        <display-name>ARSENAL vs ALMAGRO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/elv7zk15y22dhp2fos059f1h226x" />
+    </channel>
+    <channel id="TEV_2622">
+        <display-name>RIVER PLATE vs NACIONAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9la3flgqpzpoehnntnldjdvtl3on" />
+    </channel>
+    <programme start="20261121190000 -0300" stop="20261121234900 -0300" channel="TEV_2621">
+        <title lang="es">ARSENAL vs ALMAGRO</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/elv7zk15y22dhp2fos059f1h226x" />
+    </programme>
+    <programme start="20261121211000 -0300" stop="20261121235900 -0300" channel="TEV_2622">
+        <title lang="es">RIVER PLATE vs NACIONAL</title>
+        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9la3flgqpzpoehnntnldjdvtl3on" />
+    </programme>
+</tv>
