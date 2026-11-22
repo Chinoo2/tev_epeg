@@ -1,23 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2621">
-        <display-name>ARSENAL vs ALMAGRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/elv7zk15y22dhp2fos059f1h226x" />
+    <channel id="TEV_2625">
+        <display-name>UNIVERSITARIO vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6vcd0cceuq6ydx6s7drct6h5dgna" />
     </channel>
-    <channel id="TEV_2622">
-        <display-name>RIVER PLATE vs NACIONAL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9la3flgqpzpoehnntnldjdvtl3on" />
+    <channel id="TEV_2626">
+        <display-name>GLADIADOR vs FERRO CARRIL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gx4vr3mb7wem147s8l5xrmb8ooh3" />
     </channel>
-    <programme start="20261121185500 -0300" stop="20261121234900 -0300" channel="TEV_2621">
-        <title lang="es">ARSENAL vs ALMAGRO</title>
+    <channel id="TEV_2623">
+        <display-name>LSB PLAY OFF: JUVENTUS vs SALTO URUGUAY</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6ftvs9p77tao3zq9sbdzv996un4q" />
+    </channel>
+    <channel id="TEV_2624">
+        <display-name>LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
+    </channel>
+    <programme start="20261122183000 -0300" stop="20261122235800 -0300" channel="TEV_2625">
+        <title lang="es">UNIVERSITARIO vs SALTO URUGUAY</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/elv7zk15y22dhp2fos059f1h226x" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6vcd0cceuq6ydx6s7drct6h5dgna" />
     </programme>
-    <programme start="20261121211000 -0300" stop="20261121235900 -0300" channel="TEV_2622">
-        <title lang="es">RIVER PLATE vs NACIONAL</title>
+    <programme start="20261122211000 -0300" stop="20261122235900 -0300" channel="TEV_2626">
+        <title lang="es">GLADIADOR vs FERRO CARRIL</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
         <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/9la3flgqpzpoehnntnldjdvtl3on" />
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gx4vr3mb7wem147s8l5xrmb8ooh3" />
+    </programme>
+    <programme start="20261123210000 -0300" stop="20261123235900 -0300" channel="TEV_2623">
+        <title lang="es">LSB PLAY OFF: JUVENTUS vs SALTO URUGUAY</title>
+        <desc lang="es">Play Off basquetbol de primera </desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/6ftvs9p77tao3zq9sbdzv996un4q" />
+    </programme>
+    <programme start="20261124210000 -0300" stop="20261124235900 -0300" channel="TEV_2624">
+        <title lang="es">LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</title>
+        <desc lang="es">Play Off basquetbol de primera </desc>
+        <category lang="es">BASQUETBOL</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
     </programme>
 </tv>
