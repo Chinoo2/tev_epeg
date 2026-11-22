@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
+    <channel id="TEV_2627">
+        <display-name>ANTESALA DEL FUTBOL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5jjwj062v0qufrzigipd8tum6rx5" />
+    </channel>
     <channel id="TEV_2625">
         <display-name>UNIVERSITARIO vs SALTO URUGUAY</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/6vcd0cceuq6ydx6s7drct6h5dgna" />
@@ -16,6 +20,12 @@
         <display-name>LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
     </channel>
+    <programme start="20261122113000 -0300" stop="20261122130300 -0300" channel="TEV_2627">
+        <title lang="es">ANTESALA DEL FUTBOL</title>
+        <desc lang="es">INFORMACION, MUSICA Y HUMOR</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/5jjwj062v0qufrzigipd8tum6rx5" />
+    </programme>
     <programme start="20261122183000 -0300" stop="20261122235800 -0300" channel="TEV_2625">
         <title lang="es">UNIVERSITARIO vs SALTO URUGUAY</title>
         <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
