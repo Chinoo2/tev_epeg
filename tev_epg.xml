@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2626">
-        <display-name>GLADIADOR vs FERRO CARRIL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gx4vr3mb7wem147s8l5xrmb8ooh3" />
-    </channel>
     <channel id="TEV_2628">
         <display-name>SHOW DE GOLES</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/5osjetjiy9td34fbctbm3g8czaib" />
@@ -20,12 +16,6 @@
         <display-name>LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
     </channel>
-    <programme start="20261122210100 -0300" stop="20261122235900 -0300" channel="TEV_2626">
-        <title lang="es">GLADIADOR vs FERRO CARRIL</title>
-        <desc lang="es">DIVISIONAL PRIMERA “A”</desc>
-        <category lang="es">DIVISIONAL A</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/gx4vr3mb7wem147s8l5xrmb8ooh3" />
-    </programme>
     <programme start="20261123210000 -0300" stop="20261123233700 -0300" channel="TEV_2628">
         <title lang="es">SHOW DE GOLES</title>
         <desc lang="es">TODOS LOS GOLES DE LA FECHA</desc>
