@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2629">
-        <display-name>FUTBOL NUESTRO</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/xrlxo9v1g1huxjuzsc1cq8a5kju5" />
-    </channel>
     <channel id="TEV_2624">
         <display-name>LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
     </channel>
-    <programme start="20261124210000 -0300" stop="20261124233800 -0300" channel="TEV_2629">
-        <title lang="es">FUTBOL NUESTRO</title>
-        <desc lang="es">TODOS LOS DETALLES DE LA FECHA</desc>
-        <category lang="es">PROGRAMAS</category>
+    <channel id="TEV_2629">
+        <display-name>FUTBOL NUESTRO</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/xrlxo9v1g1huxjuzsc1cq8a5kju5" />
-    </programme>
+    </channel>
     <programme start="20261124210000 -0300" stop="20261124235900 -0300" channel="TEV_2624">
         <title lang="es">LSB PLAY OFF: FERRO CARRIL vs UNIVERSITARIO</title>
         <desc lang="es">Play Off basquetbol de primera </desc>
         <category lang="es">BASQUETBOL</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/cuwv1da3e2j9dmrmqnbuxnhvadvf" />
+    </programme>
+    <programme start="20261124210000 -0300" stop="20261124222500 -0300" channel="TEV_2629">
+        <title lang="es">FUTBOL NUESTRO</title>
+        <desc lang="es">TODOS LOS DETALLES DE LA FECHA</desc>
+        <category lang="es">PROGRAMAS</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/xrlxo9v1g1huxjuzsc1cq8a5kju5" />
     </programme>
 </tv>
