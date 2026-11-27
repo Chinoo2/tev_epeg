@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2632">
-        <display-name>LSB PLAYOFF: SALTO URUGUAY vs JUVENTUS</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e7rahf5ypiabaqaaxzzd1m621va2" />
-    </channel>
     <channel id="TEV_2631">
         <display-name>LSB PLAYOF: UNIVERSITARIO vs FERRO CARRIL</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/x8cnw6s85fzv7q4bowa5sg7u1umz" />
@@ -16,12 +12,6 @@
         <display-name>LIFFA: FINAL SERIE A</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/eqlxj9p3x6x8a69pp8yn28v85zey" />
     </channel>
-    <programme start="20261126210000 -0300" stop="20261126235900 -0300" channel="TEV_2632">
-        <title lang="es">LSB PLAYOFF: SALTO URUGUAY vs JUVENTUS</title>
-        <desc lang="es">PLAYOFF BASQUETBOL DE PRIMERA</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/e7rahf5ypiabaqaaxzzd1m621va2" />
-    </programme>
     <programme start="20261127210000 -0300" stop="20261127235900 -0300" channel="TEV_2631">
         <title lang="es">LSB PLAYOF: UNIVERSITARIO vs FERRO CARRIL</title>
         <desc lang="es">PLAYOFF BASQUETBOL DE PRIMERA</desc>
