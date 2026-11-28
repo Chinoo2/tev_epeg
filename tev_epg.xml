@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="Todo En Vivo EPG" generator-info-url="https://todoenvivo.plag.tv">
-    <channel id="TEV_2635">
-        <display-name>AHORA TODO PUEDE PASAR</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/njfasyrstgw5g2xvqvz28yqn7kqt" />
-    </channel>
-    <channel id="TEV_2631">
-        <display-name>LSB PLAYOF: UNIVERSITARIO vs FERRO CARRIL</display-name>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/x8cnw6s85fzv7q4bowa5sg7u1umz" />
-    </channel>
     <channel id="TEV_2633">
         <display-name>LIFFA: FINAL SERIE B </display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/7nrpwqlo130a8yvo1ghuogrl3nz3" />
@@ -16,18 +8,14 @@
         <display-name>LIFFA: FINAL SERIE A</display-name>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/eqlxj9p3x6x8a69pp8yn28v85zey" />
     </channel>
-    <programme start="20261127200000 -0300" stop="20261127210400 -0300" channel="TEV_2635">
-        <title lang="es">AHORA TODO PUEDE PASAR</title>
-        <desc lang="es">AHORA TODO PUEDE PASAR</desc>
-        <category lang="es">PROGRAMAS</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/njfasyrstgw5g2xvqvz28yqn7kqt" />
-    </programme>
-    <programme start="20261127210000 -0300" stop="20261127235900 -0300" channel="TEV_2631">
-        <title lang="es">LSB PLAYOF: UNIVERSITARIO vs FERRO CARRIL</title>
-        <desc lang="es">PLAYOFF BASQUETBOL DE PRIMERA</desc>
-        <category lang="es">BASQUETBOL</category>
-        <icon src="https://d3ne1crmm82j8l.cloudfront.net/x8cnw6s85fzv7q4bowa5sg7u1umz" />
-    </programme>
+    <channel id="TEV_2636">
+        <display-name>FERRO CARRIL vs UNIVERSITARIO</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/mzgqrprmzurexpw71boual6osctb" />
+    </channel>
+    <channel id="TEV_2637">
+        <display-name>ARSENAL vs NACIONAL</display-name>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/d1afc27rvwcs6n1j2xja8er62u8z" />
+    </channel>
     <programme start="20261128144500 -0300" stop="20261128235900 -0300" channel="TEV_2633">
         <title lang="es">LIFFA: FINAL SERIE B </title>
         <desc lang="es">Liga de Fútbol Amateur
@@ -41,5 +29,17 @@ Torneo Clausura 2026</desc>
 Torneo Clausura 2026</desc>
         <category lang="es">LIFFA</category>
         <icon src="https://d3ne1crmm82j8l.cloudfront.net/eqlxj9p3x6x8a69pp8yn28v85zey" />
+    </programme>
+    <programme start="20261129180000 -0300" stop="20261129235900 -0300" channel="TEV_2636">
+        <title lang="es">FERRO CARRIL vs UNIVERSITARIO</title>
+        <desc lang="es">PLAY OFF DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/mzgqrprmzurexpw71boual6osctb" />
+    </programme>
+    <programme start="20261129204000 -0300" stop="20261129235900 -0300" channel="TEV_2637">
+        <title lang="es">ARSENAL vs NACIONAL</title>
+        <desc lang="es">PLAY OFF DIVISIONAL PRIMERA “A”</desc>
+        <category lang="es">DIVISIONAL A</category>
+        <icon src="https://d3ne1crmm82j8l.cloudfront.net/d1afc27rvwcs6n1j2xja8er62u8z" />
     </programme>
 </tv>
